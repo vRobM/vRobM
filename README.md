@@ -23,11 +23,11 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 5.3h | 10.0h | 10.0h | 10.0h |
-| AI worker hours | 0.8h | 0.8h | 0.8h | 0.8h |
-| AI concurrency hours | 14.3h | 19.8h | 19.8h | 19.8h |
-| Interactive sessions | 13 | 13 | 13 | 13 |
-| Worker sessions | 15 | 15 | 15 | 15 |
+| User AI session hours | 4.7h | 10.0h | 10.0h | 10.0h |
+| AI worker hours | 0.0h | 0.8h | 0.8h | 0.8h |
+| AI concurrency hours | 12.1h | 19.8h | 19.8h | 19.8h |
+| Interactive sessions | 1 | 13 | 13 | 13 |
+| Worker sessions | 0 | 15 | 15 | 15 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -50,14 +50,14 @@ _Model savings are modest because ~0% of tokens are cache reads, where price dif
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
-| mimo-v2-pro-free | 20 | 129K | 11K | 1.5M | $1.01 | $4.20 | $4.12 |
-| **Total** | **96** | **9.1M** | **21K** | **1.5M** | **$28.26** | **$4.20** | **$113.19** |
+| mimo-v2-pro-free | 136 | 905K | 94K | 11.0M | $7.43 | $29.87 | $29.82 |
+| **Total** | **212** | **9.9M** | **104K** | **11.0M** | **$34.68** | **$29.87** | **$138.89** |
 
-_126.5M total tokens processed. 85% cache hit rate._
+_136.9M total tokens processed. 85.5% cache hit rate._
 
-_$117.39 total saved ($4.20 caching + $113.19 model routing vs all-Opus)._
+_$168.77 total saved ($29.87 caching + $138.89 model routing vs all-Opus)._
 
-_Model savings are modest because ~85% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~85.5% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -97,5 +97,5 @@ _Model savings are modest because ~85% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-20 04:32 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-20 05:43 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
