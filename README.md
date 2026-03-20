@@ -23,9 +23,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 4.7h | 10.0h | 10.0h | 10.0h |
+| User AI session hours | 3.9h | 10.0h | 10.0h | 10.0h |
 | AI worker hours | 0.0h | 0.8h | 0.8h | 0.8h |
-| AI concurrency hours | 12.1h | 19.8h | 19.8h | 19.8h |
+| AI concurrency hours | 11.2h | 19.8h | 19.8h | 19.8h |
 | Interactive sessions | 1 | 13 | 13 | 13 |
 | Worker sessions | 0 | 15 | 15 | 15 |
 
@@ -50,14 +50,14 @@ _Model savings are modest because ~0% of tokens are cache reads, where price dif
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
-| mimo-v2-pro-free | 136 | 905K | 94K | 11.0M | $7.43 | $29.87 | $29.82 |
-| **Total** | **212** | **9.9M** | **104K** | **11.0M** | **$34.68** | **$29.87** | **$138.89** |
+| mimo-v2-pro-free | 209 | 1.1M | 125K | 17.2M | $10.63 | $46.63 | $42.59 |
+| **Total** | **285** | **10.2M** | **135K** | **17.2M** | **$37.88** | **$46.63** | **$151.66** |
 
-_136.9M total tokens processed. 85.5% cache hit rate._
+_143.4M total tokens processed. 86% cache hit rate._
 
-_$168.77 total saved ($29.87 caching + $138.89 model routing vs all-Opus)._
+_$198.29 total saved ($46.63 caching + $151.66 model routing vs all-Opus)._
 
-_Model savings are modest because ~85.5% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~86% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -97,5 +97,5 @@ _Model savings are modest because ~85.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-20 05:43 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-20 06:43 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
