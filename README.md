@@ -33,31 +33,19 @@ _Screen time from macOS display events, snapshotted daily. *365-day extrapolated
 
 _User AI session hours measured from AI message timestamps (reading, thinking, typing between responses)._
 
-## AI Model Usage (last 30 days)
-
-| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Total** | **0** | **0** | **0** | **0** | **$0.00** | **$0.00** | **$0.00** |
-
-_0 total tokens processed. 0% cache hit rate._
-
-_$0.00 total saved ($0.00 caching + $0.00 model routing vs all-Opus)._
-
-_Model savings are modest because ~0% of tokens are cache reads, where price differences between models are small._
-
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| mimo-v2-pro-free | 1,190 | 8.7M | 541K | 125.0M | $71.78 | $337.76 | $287.21 |
+| mimo-v2-pro-free | 1,221 | 9.2M | 550K | 132.0M | $75.73 | $356.44 | $302.95 |
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
-| **Total** | **1,266** | **17.7M** | **551K** | **125.0M** | **$99.03** | **$337.76** | **$396.29** |
+| **Total** | **1,297** | **18.3M** | **560K** | **132.0M** | **$102.98** | **$356.44** | **$412.02** |
 
-_269.3M total tokens processed. 89% cache hit rate._
+_277.1M total tokens processed. 89.1% cache hit rate._
 
-_$734.05 total saved ($337.76 caching + $396.29 model routing vs all-Opus)._
+_$768.46 total saved ($356.44 caching + $412.02 model routing vs all-Opus)._
 
-_Model savings are modest because ~89% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~89.1% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -97,5 +85,5 @@ _Model savings are modest because ~89% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-21 03:13 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-21 05:25 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
