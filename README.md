@@ -37,15 +37,15 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| mimo-v2-pro-free | 1,314 | 11.4M | 571K | 151.6M | $88.28 | $409.45 | $353.18 |
+| mimo-v2-pro-free | 1,318 | 11.6M | 572K | 151.9M | $89.00 | $410.16 | $356.05 |
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
-| **Total** | **1,390** | **20.4M** | **581K** | **151.6M** | **$115.53** | **$409.45** | **$462.25** |
+| **Total** | **1,394** | **20.6M** | **582K** | **151.9M** | **$116.25** | **$410.16** | **$465.12** |
 
-_300.1M total tokens processed. 89.1% cache hit rate._
+_300.7M total tokens processed. 89% cache hit rate._
 
-_$871.70 total saved ($409.45 caching + $462.25 model routing vs all-Opus)._
+_$875.28 total saved ($410.16 caching + $465.12 model routing vs all-Opus)._
 
-_Model savings are modest because ~89.1% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~89% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -85,5 +85,5 @@ _Model savings are modest because ~89.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-21 12:26 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-21 13:26 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
