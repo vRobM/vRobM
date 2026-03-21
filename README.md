@@ -23,9 +23,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 1.0h | 10.0h | 10.0h | 10.0h |
+| User AI session hours | 0.6h | 10.0h | 10.0h | 10.0h |
 | AI worker hours | 0.0h | 0.8h | 0.8h | 0.8h |
-| AI concurrency hours | 3.8h | 19.8h | 19.8h | 19.8h |
+| AI concurrency hours | 1.2h | 19.8h | 19.8h | 19.8h |
 | Interactive sessions | 1 | 13 | 13 | 13 |
 | Worker sessions | 0 | 15 | 15 | 15 |
 
@@ -49,15 +49,15 @@ _Model savings are modest because ~0% of tokens are cache reads, where price dif
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| mimo-v2-pro-free | 976 | 7.3M | 487K | 75.5M | $52.12 | $203.88 | $208.52 |
+| mimo-v2-pro-free | 1,021 | 7.9M | 497K | 85.3M | $56.95 | $230.53 | $227.84 |
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
-| **Total** | **1,052** | **16.4M** | **497K** | **75.5M** | **$79.37** | **$203.88** | **$317.59** |
+| **Total** | **1,097** | **17.0M** | **507K** | **85.3M** | **$84.20** | **$230.53** | **$336.92** |
 
-_218.2M total tokens processed. 87.1% cache hit rate._
+_228.7M total tokens processed. 87.5% cache hit rate._
 
-_$521.47 total saved ($203.88 caching + $317.59 model routing vs all-Opus)._
+_$567.44 total saved ($230.53 caching + $336.92 model routing vs all-Opus)._
 
-_Model savings are modest because ~87.1% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~87.5% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -97,5 +97,5 @@ _Model savings are modest because ~87.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-20 22:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-21 00:03 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
