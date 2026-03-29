@@ -42,7 +42,7 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
 | **Total** | **3,572** | **42.2M** | **1.3M** | **611.8M** | **$329.99** | **$1,652.08** | **$1,320.19** |
 
-_798.3M total tokens processed. 92.9% cache hit rate._
+_806.1M total tokens processed. 92.9% cache hit rate._
 
 _$2,972.27 total saved ($1,652.08 caching + $1,320.19 model routing vs all-Opus)._
 
@@ -86,5 +86,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-28 22:34 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-29 02:35 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
