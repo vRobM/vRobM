@@ -37,14 +37,14 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| big-pickle | 142 | 82K | 32K | 10.5M | $5.62 | $0.00 | $19.46 |
-| **Total** | **142** | **82K** | **32K** | **10.5M** | **$5.62** | **$0.00** | **$19.46** |
+| big-pickle | 339 | 137K | 89K | 34.5M | $14.43 | $0.00 | $60.68 |
+| **Total** | **339** | **137K** | **89K** | **34.5M** | **$14.43** | **$0.00** | **$60.68** |
 
-_11.1M total tokens processed. 94.8% cache hit rate._
+_35.4M total tokens processed. 97.6% cache hit rate._
 
-_$19.46 total saved ($0.00 caching + $19.46 model routing vs all-Opus)._
+_$60.68 total saved ($0.00 caching + $60.68 model routing vs all-Opus)._
 
-_Model savings are modest because ~94.8% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~97.6% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -55,11 +55,11 @@ _Model savings are modest because ~94.8% of tokens are cache reads, where price 
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
 | **Total** | **3,572** | **42.2M** | **1.3M** | **611.8M** | **$329.99** | **$1,652.08** | **$1,320.19** |
 
-_841.2M total tokens processed. 93% cache hit rate._
+_865.5M total tokens processed. 93.2% cache hit rate._
 
 _$2,972.27 total saved ($1,652.08 caching + $1,320.19 model routing vs all-Opus)._
 
-_Model savings are modest because ~93% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.2% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -99,5 +99,5 @@ _Model savings are modest because ~93% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-05 05:25 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-05 06:25 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
