@@ -23,10 +23,10 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 0.0h | 10.0h | 10.0h |
+| User AI session hours | 0.3h | 1.5h | 41.2h | 41.2h |
 | AI worker hours | 0.0h | 0.0h | 0.8h | 0.8h |
-| AI concurrency hours | 0.0h | 0.0h | 19.8h | 19.8h |
-| Interactive sessions | 0 | 0 | 13 | 13 |
+| AI concurrency hours | 3.2h | 15.2h | 88.3h | 88.3h |
+| Interactive sessions | 6 | 7 | 57 | 57 |
 | Worker sessions | 0 | 0 | 15 | 15 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -38,31 +38,31 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | big-pickle | 948 | 1.2M | 246K | 97.1M | $43.05 | $0.00 | $183.54 |
-| qwen3.6-plus-free | 138 | 12.3M | 51K | 0 | $38.05 | $0.00 | $151.74 |
-| minimax-m2.5-free | 26 | 65K | 6K | 1.1M | $0.65 | $0.00 | $3.23 |
-| **Total** | **1,112** | **13.7M** | **304K** | **98.3M** | **$81.75** | **$0.00** | **$338.51** |
+| qwen3.6-plus-free | 163 | 13.2M | 54K | 0 | $40.69 | $0.00 | $162.28 |
+| minimax-m2.5-free | 78 | 163K | 19K | 4.5M | $2.14 | $0.00 | $10.70 |
+| **Total** | **1,189** | **14.6M** | **320K** | **101.6M** | **$85.88** | **$0.00** | **$356.51** |
 
-_114.0M total tokens processed. 86.2% cache hit rate._
+_118.3M total tokens processed. 85.9% cache hit rate._
 
-_$338.51 total saved ($0.00 caching + $338.51 model routing vs all-Opus)._
+_$356.51 total saved ($0.00 caching + $356.51 model routing vs all-Opus)._
 
-_Model savings are modest because ~86.2% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~85.9% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | mimo-v2-pro-free | 3,077 | 27.8M | 1.1M | 561.2M | $269.00 | $1,515.46 | $1,076.07 |
-| qwen3.6-plus-free | 138 | 12.3M | 51K | 0 | $37.93 | $0.00 | $151.74 |
+| qwen3.6-plus-free | 164 | 13.2M | 54K | 0 | $40.56 | $0.00 | $162.28 |
 | mimo-v2-omni-free | 419 | 5.3M | 168K | 50.5M | $33.74 | $136.62 | $135.04 |
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
-| **Total** | **3,710** | **54.6M** | **1.3M** | **611.8M** | **$367.92** | **$1,652.08** | **$1,471.93** |
+| **Total** | **3,736** | **55.5M** | **1.3M** | **611.8M** | **$370.55** | **$1,652.08** | **$1,482.46** |
 
-_944.1M total tokens processed. 92.2% cache hit rate._
+_948.4M total tokens processed. 92.1% cache hit rate._
 
-_$3,124.01 total saved ($1,652.08 caching + $1,471.93 model routing vs all-Opus)._
+_$3,134.54 total saved ($1,652.08 caching + $1,482.46 model routing vs all-Opus)._
 
-_Model savings are modest because ~92.2% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~92.1% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -102,5 +102,5 @@ _Model savings are modest because ~92.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-06 15:45 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-06 16:46 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
