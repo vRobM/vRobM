@@ -37,15 +37,15 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| big-pickle | 919 | 1.2M | 241K | 92.5M | $41.54 | $0.00 | $176.21 |
+| big-pickle | 948 | 1.2M | 246K | 97.1M | $43.05 | $0.00 | $183.54 |
 | qwen3.6-plus-free | 138 | 12.3M | 51K | 0 | $38.05 | $0.00 | $151.74 |
-| **Total** | **1,057** | **13.6M** | **293K** | **92.5M** | **$79.59** | **$0.00** | **$327.95** |
+| **Total** | **1,086** | **13.6M** | **298K** | **97.1M** | **$81.10** | **$0.00** | **$335.28** |
 
-_108.3M total tokens processed. 85.6% cache hit rate._
+_112.8M total tokens processed. 86.1% cache hit rate._
 
-_$327.95 total saved ($0.00 caching + $327.95 model routing vs all-Opus)._
+_$335.28 total saved ($0.00 caching + $335.28 model routing vs all-Opus)._
 
-_Model savings are modest because ~85.6% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~86.1% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -57,11 +57,11 @@ _Model savings are modest because ~85.6% of tokens are cache reads, where price 
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
 | **Total** | **3,710** | **54.6M** | **1.3M** | **611.8M** | **$367.92** | **$1,652.08** | **$1,471.93** |
 
-_938.4M total tokens processed. 92.1% cache hit rate._
+_942.9M total tokens processed. 92.2% cache hit rate._
 
 _$3,124.01 total saved ($1,652.08 caching + $1,471.93 model routing vs all-Opus)._
 
-_Model savings are modest because ~92.1% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~92.2% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -101,5 +101,5 @@ _Model savings are modest because ~92.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-06 06:30 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-06 07:30 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
