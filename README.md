@@ -39,12 +39,12 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | big-pickle | 948 | 1.2M | 246K | 97.1M | $43.05 | $0.00 | $183.54 |
 | qwen3.6-plus-free | 163 | 13.2M | 54K | 0 | $40.69 | $0.00 | $162.28 |
-| minimax-m2.5-free | 132 | 416K | 32K | 7.9M | $4.14 | $0.00 | $20.68 |
-| **Total** | **1,243** | **14.9M** | **333K** | **105.1M** | **$87.88** | **$0.00** | **$366.49** |
+| minimax-m2.5-free | 144 | 501K | 34K | 8.8M | $4.69 | $0.00 | $23.46 |
+| **Total** | **1,255** | **15.0M** | **335K** | **106.0M** | **$88.43** | **$0.00** | **$369.27** |
 
-_122.1M total tokens processed. 86.1% cache hit rate._
+_123.1M total tokens processed. 86.1% cache hit rate._
 
-_$366.49 total saved ($0.00 caching + $366.49 model routing vs all-Opus)._
+_$369.27 total saved ($0.00 caching + $369.27 model routing vs all-Opus)._
 
 _Model savings are modest because ~86.1% of tokens are cache reads, where price differences between models are small._
 
@@ -58,7 +58,7 @@ _Model savings are modest because ~86.1% of tokens are cache reads, where price 
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
 | **Total** | **3,736** | **55.5M** | **1.3M** | **611.8M** | **$370.55** | **$1,652.08** | **$1,482.46** |
 
-_952.2M total tokens processed. 92.1% cache hit rate._
+_953.2M total tokens processed. 92.1% cache hit rate._
 
 _$3,134.54 total saved ($1,652.08 caching + $1,482.46 model routing vs all-Opus)._
 
@@ -102,5 +102,5 @@ _Model savings are modest because ~92.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-07 01:47 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-07 05:48 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
