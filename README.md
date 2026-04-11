@@ -23,9 +23,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 3.7h | 43.4h | 43.4h |
+| User AI session hours | 0.2h | 3.9h | 43.5h | 43.5h |
 | AI worker hours | 0.0h | 0.0h | 0.8h | 0.8h |
-| AI concurrency hours | 0.0h | 20.4h | 93.5h | 93.5h |
+| AI concurrency hours | 0.3h | 20.6h | 93.6h | 93.6h |
 | Interactive sessions | 1 | 8 | 58 | 58 |
 | Worker sessions | 0 | 0 | 15 | 15 |
 
@@ -39,12 +39,12 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | big-pickle | 948 | 1.2M | 246K | 97.1M | $43.05 | $0.00 | $183.54 |
 | qwen3.6-plus-free | 163 | 13.2M | 54K | 0 | $40.69 | $0.00 | $162.28 |
-| minimax-m2.5-free | 631 | 2.6M | 157K | 64.5M | $30.90 | $0.00 | $148.31 |
-| **Total** | **1,742** | **17.1M** | **458K** | **161.7M** | **$114.64** | **$0.00** | **$494.13** |
+| minimax-m2.5-free | 647 | 2.6M | 159K | 65.0M | $31.21 | $0.00 | $149.88 |
+| **Total** | **1,758** | **17.2M** | **460K** | **162.2M** | **$114.95** | **$0.00** | **$495.69** |
 
-_181.3M total tokens processed. 89.2% cache hit rate._
+_181.9M total tokens processed. 89.2% cache hit rate._
 
-_$494.13 total saved ($0.00 caching + $494.13 model routing vs all-Opus)._
+_$495.69 total saved ($0.00 caching + $495.69 model routing vs all-Opus)._
 
 _Model savings are modest because ~89.2% of tokens are cache reads, where price differences between models are small._
 
@@ -58,7 +58,7 @@ _Model savings are modest because ~89.2% of tokens are cache reads, where price 
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
 | **Total** | **3,736** | **55.5M** | **1.3M** | **611.8M** | **$370.55** | **$1,652.08** | **$1,482.46** |
 
-_1,011.4M total tokens processed. 92.3% cache hit rate._
+_1,012.0M total tokens processed. 92.3% cache hit rate._
 
 _$3,134.54 total saved ($1,652.08 caching + $1,482.46 model routing vs all-Opus)._
 
@@ -102,5 +102,5 @@ _Model savings are modest because ~92.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-11 20:55 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-11 22:54 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
