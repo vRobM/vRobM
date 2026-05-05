@@ -25,7 +25,7 @@
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
 | User AI session hours | 0.0h | 0.0h | 2.7h | 43.5h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.8h |
-| AI concurrency hours | 0.0h | 0.0h | 12.1h | 93.6h |
+| AI concurrency hours | 0.0h | 0.0h | 9.9h | 93.6h |
 | Interactive sessions | 0 | 0 | 7 | 58 |
 | Worker sessions | 0 | 0 | 0 | 15 |
 
@@ -38,13 +38,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | minimax-m2.5-free | 647 | 2.6M | 159K | 65.0M | $31.21 | $0.00 | $149.88 |
-| big-pickle | 293 | 703K | 69K | 32.4M | $14.13 | $0.00 | $64.38 |
+| big-pickle | 262 | 565K | 63K | 29.3M | $12.72 | $0.00 | $57.34 |
 | qwen3.6-plus-free | 25 | 861K | 3K | 0 | $2.64 | $0.00 | $10.53 |
-| **Total** | **965** | **4.2M** | **231K** | **97.5M** | **$47.98** | **$0.00** | **$224.79** |
+| **Total** | **934** | **4.1M** | **225K** | **94.4M** | **$46.57** | **$0.00** | **$217.75** |
 
-_102.6M total tokens processed. 95% cache hit rate._
+_99.4M total tokens processed. 95% cache hit rate._
 
-_$224.79 total saved ($0.00 caching + $224.79 model routing vs all-Opus)._
+_$217.75 total saved ($0.00 caching + $217.75 model routing vs all-Opus)._
 
 _Model savings are modest because ~95% of tokens are cache reads, where price differences between models are small._
 
@@ -102,5 +102,5 @@ _Model savings are modest because ~92.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-05 13:41 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-05 14:54 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
