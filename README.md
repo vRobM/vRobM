@@ -23,10 +23,10 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.3h | 0.3h | 0.3h | 43.9h |
+| User AI session hours | 0.4h | 0.4h | 0.4h | 44.0h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.8h |
-| AI concurrency hours | 0.3h | 0.3h | 0.4h | 94.0h |
-| Interactive sessions | 1 | 1 | 4 | 61 |
+| AI concurrency hours | 0.5h | 0.5h | 0.6h | 94.2h |
+| Interactive sessions | 2 | 2 | 5 | 62 |
 | Worker sessions | 0 | 0 | 0 | 15 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -37,15 +37,15 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 15 | 211K | 4K | 963K | $1.11 | $2.60 | $3.97 |
+| deepseek-v4-flash-free | 54 | 300K | 23K | 2.8M | $2.32 | $7.75 | $8.46 |
 | minimax-m2.5-free | 1 | 29K | 662 | 0 | $0.10 | $0.00 | $0.50 |
-| **Total** | **16** | **240K** | **5K** | **963K** | **$1.21** | **$2.60** | **$4.47** |
+| **Total** | **55** | **329K** | **24K** | **2.8M** | **$2.42** | **$7.75** | **$8.96** |
 
-_1.2M total tokens processed. 79.6% cache hit rate._
+_3.2M total tokens processed. 89% cache hit rate._
 
-_$7.07 total saved ($2.60 caching + $4.47 model routing vs all-Opus)._
+_$16.70 total saved ($7.75 caching + $8.96 model routing vs all-Opus)._
 
-_Model savings are modest because ~79.6% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~89% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -55,12 +55,12 @@ _Model savings are modest because ~79.6% of tokens are cache reads, where price 
 | qwen3.6-plus-free | 164 | 13.2M | 54K | 0 | $40.56 | $0.00 | $162.28 |
 | mimo-v2-omni-free | 419 | 5.3M | 168K | 50.5M | $33.74 | $136.62 | $135.04 |
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
-| deepseek-v4-flash-free | 16 | 211K | 4K | 963K | $0.98 | $2.60 | $3.97 |
-| **Total** | **3,752** | **55.7M** | **1.3M** | **612.8M** | **$371.53** | **$1,654.68** | **$1,486.43** |
+| deepseek-v4-flash-free | 55 | 300K | 23K | 2.8M | $2.11 | $7.75 | $8.46 |
+| **Total** | **3,791** | **55.8M** | **1.3M** | **614.7M** | **$372.66** | **$1,659.83** | **$1,490.92** |
 
-_1,013.2M total tokens processed. 92.3% cache hit rate._
+_1,015.2M total tokens processed. 92.3% cache hit rate._
 
-_$3,141.12 total saved ($1,654.68 caching + $1,486.43 model routing vs all-Opus)._
+_$3,150.75 total saved ($1,659.83 caching + $1,490.92 model routing vs all-Opus)._
 
 _Model savings are modest because ~92.3% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -102,5 +102,5 @@ _Model savings are modest because ~92.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-08 00:59 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-08 20:44 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
