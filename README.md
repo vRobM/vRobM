@@ -26,7 +26,7 @@
 | User AI session hours | 0.4h | 0.4h | 0.4h | 10.4h |
 | AI worker hours | 0.1h | 6.4h | 10.5h | 18.2h |
 | AI concurrency hours | 1.1h | 7.5h | 11.5h | 38.2h |
-| Interactive sessions | 2 | 2 | 2 | 15 |
+| Interactive sessions | 4 | 4 | 4 | 17 |
 | Worker sessions | 1 | 6 | 9 | 4 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -39,9 +39,9 @@ _AI session 365-day totals cover 92 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 2,227 | 4.3M | 798K | 218.0M | $97.16 | $588.77 | $362.16 |
-| mimo-v2.5-free | 876 | 2.4M | 234K | 84.9M | $38.88 | $229.36 | $145.12 |
-| **Total** | **3,103** | **6.8M** | **1.0M** | **303.0M** | **$136.04** | **$818.13** | **$507.28** |
+| deepseek-v4-flash-free | 2,228 | 4.3M | 798K | 218.0M | $97.16 | $588.77 | $362.16 |
+| mimo-v2.5-free | 877 | 2.4M | 234K | 84.9M | $38.88 | $229.36 | $145.12 |
+| **Total** | **3,105** | **6.8M** | **1.0M** | **303.0M** | **$136.04** | **$818.13** | **$507.28** |
 
 _310.8M total tokens processed. 97.5% cache hit rate._
 
@@ -54,12 +54,12 @@ _Model savings are modest because ~97.5% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | mimo-v2-pro-free | 3,077 | 27.8M | 1.1M | 561.2M | $269.00 | $1,515.46 | $1,076.07 |
-| deepseek-v4-flash-free | 2,228 | 4.3M | 798K | 218.0M | $90.52 | $588.77 | $362.16 |
+| deepseek-v4-flash-free | 2,229 | 4.3M | 798K | 218.0M | $90.52 | $588.77 | $362.16 |
 | qwen3.6-plus-free | 164 | 13.2M | 54K | 0 | $40.56 | $0.00 | $162.28 |
-| mimo-v2.5-free | 876 | 2.4M | 234K | 84.9M | $36.27 | $229.36 | $145.12 |
+| mimo-v2.5-free | 877 | 2.4M | 234K | 84.9M | $36.27 | $229.36 | $145.12 |
 | mimo-v2-omni-free | 419 | 5.3M | 168K | 50.5M | $33.74 | $136.62 | $135.04 |
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
-| **Total** | **6,840** | **62.3M** | **2.3M** | **914.8M** | **$497.34** | **$2,470.21** | **$1,989.74** |
+| **Total** | **6,842** | **62.3M** | **2.3M** | **914.8M** | **$497.34** | **$2,470.21** | **$1,989.74** |
 
 _1,322.9M total tokens processed. 93.5% cache hit rate._
 
@@ -105,5 +105,5 @@ _Model savings are modest because ~93.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-18 04:56 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-18 20:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
