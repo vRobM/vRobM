@@ -23,10 +23,10 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.2h | 0.9h | 1.5h | 11.5h |
+| User AI session hours | 0.0h | 0.9h | 1.5h | 11.5h |
 | AI worker hours | 0.0h | 0.0h | 10.5h | 18.2h |
-| AI concurrency hours | 0.3h | 2.9h | 14.8h | 41.4h |
-| Interactive sessions | 1 | 6 | 11 | 24 |
+| AI concurrency hours | 0.0h | 2.9h | 14.8h | 41.4h |
+| Interactive sessions | 1 | 5 | 11 | 24 |
 | Worker sessions | 1 | 1 | 10 | 4 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -105,5 +105,5 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-26 23:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-27 00:07 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
