@@ -24,9 +24,9 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
 | User AI session hours | 0.7h | 5.8h | 13.4h | 23.4h |
-| AI worker hours | 0.4h | 0.1h | 6.5h | 18.3h |
-| AI concurrency hours | 7.1h | 20.4h | 42.7h | 73.4h |
-| Interactive sessions | 2 | 3 | 18 | 31 |
+| AI worker hours | 0.1h | 0.1h | 6.5h | 18.3h |
+| AI concurrency hours | 5.8h | 20.4h | 42.7h | 73.4h |
+| Interactive sessions | 1 | 3 | 18 | 31 |
 | Worker sessions | 1 | 3 | 9 | 4 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -40,13 +40,13 @@ _AI session 365-day totals cover 113 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | mimo-v2.5-free | 3,767 | 7.9M | 592K | 379.5M | $151.31 | $1,024.66 | $586.25 |
-| deepseek-v4-flash-free | 1,427 | 2.5M | 417K | 139.5M | $59.70 | $376.89 | $223.51 |
+| deepseek-v4-flash-free | 1,412 | 2.4M | 415K | 137.7M | $58.65 | $371.80 | $219.41 |
 | big-pickle | 146 | 375K | 29K | 12.2M | $5.87 | $0.00 | $26.28 |
-| **Total** | **5,340** | **10.8M** | **1.0M** | **531.3M** | **$216.88** | **$1,401.55** | **$836.03** |
+| **Total** | **5,325** | **10.7M** | **1.0M** | **529.5M** | **$215.83** | **$1,396.46** | **$831.94** |
 
-_543.3M total tokens processed. 97.8% cache hit rate._
+_541.2M total tokens processed. 97.8% cache hit rate._
 
-_$2,237.58 total saved ($1,401.55 caching + $836.03 model routing vs all-Opus)._
+_$2,228.39 total saved ($1,396.46 caching + $831.94 model routing vs all-Opus)._
 
 _Model savings are modest because ~97.8% of tokens are cache reads, where price differences between models are small._
 
@@ -106,5 +106,5 @@ _Model savings are modest because ~94.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-09 21:19 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-09 22:19 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
