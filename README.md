@@ -23,9 +23,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.5h | 6.3h | 13.9h | 23.9h |
-| AI worker hours | 0.0h | 0.1h | 5.8h | 18.3h |
-| AI concurrency hours | 2.4h | 21.4h | 43.0h | 74.4h |
+| User AI session hours | 1.0h | 6.8h | 14.4h | 24.4h |
+| AI worker hours | 0.0h | 0.1h | 5.7h | 18.3h |
+| AI concurrency hours | 2.3h | 22.3h | 43.8h | 75.3h |
 | Interactive sessions | 2 | 4 | 19 | 32 |
 | Worker sessions | 1 | 3 | 9 | 4 |
 
@@ -41,12 +41,12 @@ _AI session 365-day totals cover 114 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | mimo-v2.5-free | 3,767 | 7.9M | 592K | 379.5M | $151.31 | $1,024.66 | $586.25 |
 | deepseek-v4-flash-free | 1,401 | 2.4M | 412K | 136.0M | $58.09 | $367.37 | $217.23 |
-| big-pickle | 404 | 836K | 63K | 36.5M | $15.24 | $0.00 | $72.13 |
-| **Total** | **5,572** | **11.2M** | **1.0M** | **552.0M** | **$224.64** | **$1,392.03** | **$875.61** |
+| big-pickle | 630 | 1.1M | 92K | 56.3M | $22.83 | $0.00 | $109.42 |
+| **Total** | **5,798** | **11.5M** | **1.0M** | **571.9M** | **$232.23** | **$1,392.03** | **$912.90** |
 
-_564.3M total tokens processed. 97.8% cache hit rate._
+_584.6M total tokens processed. 97.8% cache hit rate._
 
-_$2,267.64 total saved ($1,392.03 caching + $875.61 model routing vs all-Opus)._
+_$2,304.93 total saved ($1,392.03 caching + $912.90 model routing vs all-Opus)._
 
 _Model savings are modest because ~97.8% of tokens are cache reads, where price differences between models are small._
 
@@ -62,11 +62,11 @@ _Model savings are modest because ~97.8% of tokens are cache reads, where price 
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
 | **Total** | **9,903** | **68.4M** | **2.8M** | **1,224.1M** | **$615.54** | **$3,305.17** | **$2,462.57** |
 
-_1,676.2M total tokens processed. 94.4% cache hit rate._
+_1,696.4M total tokens processed. 94.5% cache hit rate._
 
 _$5,767.75 total saved ($3,305.17 caching + $2,462.57 model routing vs all-Opus)._
 
-_Model savings are modest because ~94.4% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~94.5% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -106,5 +106,5 @@ _Model savings are modest because ~94.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-10 04:22 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-10 05:23 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
