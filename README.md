@@ -23,11 +23,11 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 1.0h | 6.8h | 14.4h | 24.4h |
-| AI worker hours | 0.0h | 0.1h | 5.7h | 18.3h |
-| AI concurrency hours | 2.3h | 22.3h | 43.8h | 75.3h |
-| Interactive sessions | 2 | 4 | 19 | 32 |
-| Worker sessions | 1 | 3 | 9 | 4 |
+| User AI session hours | 1.7h | 7.5h | 15.1h | 25.1h |
+| AI worker hours | 0.0h | 0.1h | 5.6h | 18.3h |
+| AI concurrency hours | 3.0h | 23.4h | 44.8h | 76.4h |
+| Interactive sessions | 2 | 5 | 20 | 33 |
+| Worker sessions | 0 | 3 | 9 | 4 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -39,34 +39,36 @@ _AI session 365-day totals cover 114 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| mimo-v2.5-free | 3,767 | 7.9M | 592K | 379.5M | $151.31 | $1,024.66 | $586.25 |
+| mimo-v2.5-free | 3,768 | 7.9M | 592K | 379.5M | $151.31 | $1,024.66 | $586.25 |
 | deepseek-v4-flash-free | 1,401 | 2.4M | 412K | 136.0M | $58.09 | $367.37 | $217.23 |
-| big-pickle | 630 | 1.1M | 92K | 56.3M | $22.83 | $0.00 | $109.42 |
-| **Total** | **5,798** | **11.5M** | **1.0M** | **571.9M** | **$232.23** | **$1,392.03** | **$912.90** |
+| big-pickle | 631 | 1.1M | 92K | 56.3M | $22.83 | $0.00 | $109.42 |
+| nemotron-3-ultra-free | 79 | 1.4M | 19K | 7.0M | $6.86 | $19.15 | $27.20 |
+| **Total** | **5,879** | **13.0M** | **1.1M** | **579.0M** | **$239.09** | **$1,411.18** | **$940.10** |
 
-_584.6M total tokens processed. 97.8% cache hit rate._
+_593.1M total tokens processed. 97.6% cache hit rate._
 
-_$2,304.93 total saved ($1,392.03 caching + $912.90 model routing vs all-Opus)._
+_$2,351.28 total saved ($1,411.18 caching + $940.10 model routing vs all-Opus)._
 
-_Model savings are modest because ~97.8% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~97.6% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | mimo-v2-pro-free | 3,077 | 27.8M | 1.1M | 561.2M | $269.00 | $1,515.46 | $1,076.07 |
-| mimo-v2.5-free | 3,937 | 8.5M | 706K | 394.1M | $154.47 | $1,064.32 | $617.95 |
+| mimo-v2.5-free | 3,938 | 8.5M | 706K | 394.1M | $154.47 | $1,064.32 | $617.95 |
 | deepseek-v4-flash-free | 2,230 | 4.3M | 798K | 218.0M | $90.52 | $588.77 | $362.16 |
 | qwen3.6-plus-free | 164 | 13.2M | 54K | 0 | $40.56 | $0.00 | $162.28 |
 | mimo-v2-omni-free | 419 | 5.3M | 168K | 50.5M | $33.74 | $136.62 | $135.04 |
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
-| **Total** | **9,903** | **68.4M** | **2.8M** | **1,224.1M** | **$615.54** | **$3,305.17** | **$2,462.57** |
+| nemotron-3-ultra-free | 79 | 1.4M | 19K | 7.0M | $6.78 | $19.15 | $27.20 |
+| **Total** | **9,983** | **69.8M** | **2.8M** | **1,231.2M** | **$622.32** | **$3,324.33** | **$2,489.77** |
 
-_1,696.4M total tokens processed. 94.5% cache hit rate._
+_1,705.0M total tokens processed. 94.4% cache hit rate._
 
-_$5,767.75 total saved ($3,305.17 caching + $2,462.57 model routing vs all-Opus)._
+_$5,814.10 total saved ($3,324.33 caching + $2,489.77 model routing vs all-Opus)._
 
-_Model savings are modest because ~94.5% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~94.4% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -106,5 +108,5 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-10 05:23 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-10 06:23 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
