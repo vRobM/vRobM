@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 16.4h | 102h | 102h | ~5031h* |
+| Screen time (Mac) | 16.4h | 100.9h | 100.9h | ~5045h* |
 | Interactive human attention | 3.5h | 14.0h | 21.6h | 31.6h |
 | Interactive AI generation | 2.0h | 19.5h | 27.8h | 36.7h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -44,14 +44,14 @@ _AI session 365-day totals cover 116 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | mimo-v2.5-free | 4,394 | 9.8M | 720K | 441.1M | $178.25 | $1,191.19 | $691.26 |
-| deepseek-v4-flash-free | 1,239 | 2.3M | 311K | 118.2M | $49.77 | $319.40 | $188.27 |
+| deepseek-v4-flash-free | 1,207 | 2.2M | 306K | 116.1M | $48.97 | $313.58 | $185.19 |
 | nemotron-3-ultra-free | 463 | 8.4M | 107K | 59.8M | $45.31 | $161.64 | $179.71 |
 | big-pickle | 825 | 1.5M | 132K | 71.7M | $29.16 | $0.00 | $140.14 |
-| **Total** | **6,921** | **22.1M** | **1.2M** | **691.0M** | **$302.49** | **$1,672.23** | **$1,199.38** |
+| **Total** | **6,889** | **22.1M** | **1.2M** | **688.9M** | **$301.69** | **$1,666.41** | **$1,196.29** |
 
-_714.5M total tokens processed. 96.7% cache hit rate._
+_712.3M total tokens processed. 96.7% cache hit rate._
 
-_$2,871.60 total saved ($1,672.23 caching + $1,199.38 model routing vs all-Opus)._
+_$2,862.70 total saved ($1,666.41 caching + $1,196.29 model routing vs all-Opus)._
 
 _Model savings are modest because ~96.7% of tokens are cache reads, where price differences between models are small._
 
@@ -112,5 +112,5 @@ _Model savings are modest because ~94.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-12 20:04 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-12 21:04 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
