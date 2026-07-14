@@ -44,15 +44,15 @@ _AI session 365-day totals cover 117 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | mimo-v2.5-free | 4,397 | 9.9M | 720K | 441.2M | $178.41 | $1,191.31 | $691.89 |
-| deepseek-v4-flash-free | 2,590 | 4.6M | 550K | 264.6M | $108.22 | $714.68 | $406.72 |
+| deepseek-v4-flash-free | 2,566 | 4.6M | 554K | 258.0M | $106.21 | $696.74 | $398.83 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | big-pickle | 826 | 1.5M | 132K | 71.7M | $29.16 | $0.00 | $140.14 |
 | lfm2 | 21 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
-| **Total** | **8,617** | **28.3M** | **1.5M** | **875.7M** | **$384.63** | **$2,170.77** | **$1,511.88** |
+| **Total** | **8,593** | **28.3M** | **1.5M** | **869.0M** | **$382.62** | **$2,152.83** | **$1,503.99** |
 
-_905.6M total tokens processed. 96.7% cache hit rate._
+_898.9M total tokens processed. 96.7% cache hit rate._
 
-_$3,682.65 total saved ($2,170.77 caching + $1,511.88 model routing vs all-Opus)._
+_$3,656.82 total saved ($2,152.83 caching + $1,503.99 model routing vs all-Opus)._
 
 _Model savings are modest because ~96.7% of tokens are cache reads, where price differences between models are small._
 
@@ -60,18 +60,18 @@ _Model savings are modest because ~96.7% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| deepseek-v4-flash-free | 4,408 | 8.5M | 1.2M | 439.1M | $188.16 | $1,185.59 | $704.33 |
 | mimo-v2.5-free | 4,566 | 10.5M | 834K | 455.9M | $187.31 | $1,230.96 | $723.58 |
-| deepseek-v4-flash-free | 4,322 | 8.4M | 1.2M | 431.7M | $185.05 | $1,165.83 | $692.72 |
 | big-pickle | 1,774 | 2.7M | 378K | 168.9M | $72.21 | $0.00 | $323.67 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | qwen3.6-plus-free | 163 | 13.2M | 54K | 0 | $40.69 | $0.00 | $162.28 |
 | minimax-m2.5-free | 648 | 2.7M | 159K | 65.0M | $31.31 | $0.00 | $150.37 |
 | lfm2 | 21 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
-| **Total** | **12,277** | **49.9M** | **2.7M** | **1,219.7M** | **$585.41** | **$2,661.58** | **$2,325.76** |
+| **Total** | **12,363** | **50.0M** | **2.8M** | **1,227.1M** | **$588.52** | **$2,681.34** | **$2,337.37** |
 
-_1,274.5M total tokens processed. 95.7% cache hit rate._
+_1,282.0M total tokens processed. 95.7% cache hit rate._
 
-_$4,987.34 total saved ($2,661.58 caching + $2,325.76 model routing vs all-Opus)._
+_$5,018.71 total saved ($2,681.34 caching + $2,337.37 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.7% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -113,5 +113,5 @@ _Model savings are modest because ~95.7% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-14 01:25 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-14 02:31 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
