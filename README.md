@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 16.9h | 103.3h | 103.3h | ~5095h* |
+| Screen time (Mac) | 16.9h | 101.8h | 101.8h | ~5090h* |
 | Interactive human attention | 1.4h | 21.7h | 33.3h | 43.4h |
 | Interactive AI generation | 0.8h | 22.4h | 36.6h | 45.6h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -123,5 +123,5 @@ _Model savings are modest because ~94% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-15 20:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-15 22:09 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
