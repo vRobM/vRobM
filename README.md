@@ -44,8 +44,8 @@ _AI session 365-day totals cover 120 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | mimo-v2.5-free | 4,322 | 9.8M | 710K | 434.8M | $175.92 | $1,174.05 | $682.13 |
-| deepseek-v4-flash-free | 2,973 | 5.7M | 593K | 293.0M | $121.20 | $791.12 | $456.03 |
-| agnes-15-flash | 305 | 25.5M | 165K | 624K | $79.46 | $1.69 | $317.82 |
+| deepseek-v4-flash-free | 2,974 | 5.7M | 593K | 293.0M | $121.20 | $791.12 | $456.03 |
+| agnes-15-flash | 360 | 29.9M | 176K | 666K | $92.72 | $1.80 | $370.90 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | big-pickle | 826 | 1.5M | 132K | 71.7M | $29.16 | $0.00 | $140.14 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
@@ -53,21 +53,21 @@ _AI session 365-day totals cover 120 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **9,248** | **55.2M** | **1.7M** | **898.2M** | **$475.71** | **$2,231.63** | **$1,873.83** |
+| **Total** | **9,304** | **59.6M** | **1.7M** | **898.3M** | **$488.97** | **$2,231.75** | **$1,926.90** |
 
-_955.3M total tokens processed. 94% cache hit rate._
+_959.7M total tokens processed. 93.6% cache hit rate._
 
-_$4,105.46 total saved ($2,231.63 caching + $1,873.83 model routing vs all-Opus)._
+_$4,158.65 total saved ($2,231.75 caching + $1,926.90 model routing vs all-Opus)._
 
-_Model savings are modest because ~94% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 5,200 | 10.1M | 1.3M | 511.0M | $218.36 | $1,379.89 | $818.19 |
+| deepseek-v4-flash-free | 5,201 | 10.1M | 1.3M | 511.0M | $218.36 | $1,379.89 | $818.19 |
 | mimo-v2.5-free | 4,566 | 10.5M | 834K | 455.9M | $187.31 | $1,230.96 | $723.58 |
-| agnes-15-flash | 305 | 25.5M | 165K | 624K | $79.46 | $1.69 | $317.82 |
+| agnes-15-flash | 360 | 29.9M | 176K | 666K | $92.72 | $1.80 | $370.90 |
 | big-pickle | 1,774 | 2.7M | 378K | 168.9M | $72.21 | $0.00 | $323.67 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | qwen3.6-plus-free | 163 | 13.2M | 54K | 0 | $40.69 | $0.00 | $162.28 |
@@ -77,13 +77,13 @@ _Model savings are modest because ~94% of tokens are cache reads, where price di
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **13,478** | **77.6M** | **3.1M** | **1,299.6M** | **$699.31** | **$2,877.33** | **$2,773.64** |
+| **Total** | **13,534** | **82.0M** | **3.1M** | **1,299.7M** | **$712.57** | **$2,877.44** | **$2,826.71** |
 
-_1,382.4M total tokens processed. 94% cache hit rate._
+_1,386.9M total tokens processed. 93.7% cache hit rate._
 
-_$5,650.96 total saved ($2,877.33 caching + $2,773.64 model routing vs all-Opus)._
+_$5,704.15 total saved ($2,877.44 caching + $2,826.71 model routing vs all-Opus)._
 
-_Model savings are modest because ~94% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -123,5 +123,5 @@ _Model savings are modest because ~94% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-16 15:19 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-16 16:20 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
