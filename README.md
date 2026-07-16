@@ -43,7 +43,7 @@ _AI session 365-day totals cover 120 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| mimo-v2.5-free | 4,060 | 9.0M | 674K | 405.6M | $163.05 | $1,095.22 | $635.45 |
+| mimo-v2.5-free | 3,980 | 8.9M | 661K | 398.9M | $160.65 | $1,077.16 | $626.02 |
 | deepseek-v4-flash-free | 2,974 | 5.7M | 593K | 293.0M | $121.20 | $791.12 | $456.03 |
 | agnes-15-flash | 408 | 34.1M | 185K | 666K | $105.40 | $1.80 | $421.60 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
@@ -53,13 +53,13 @@ _AI session 365-day totals cover 120 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **9,090** | **63.0M** | **1.7M** | **869.1M** | **$488.78** | **$2,152.92** | **$1,930.93** |
+| **Total** | **9,010** | **62.9M** | **1.7M** | **862.4M** | **$486.38** | **$2,134.86** | **$1,921.51** |
 
-_933.9M total tokens processed. 93.1% cache hit rate._
+_927.1M total tokens processed. 93% cache hit rate._
 
-_$4,083.86 total saved ($2,152.92 caching + $1,930.93 model routing vs all-Opus)._
+_$4,056.37 total saved ($2,134.86 caching + $1,921.51 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.1% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -123,5 +123,5 @@ _Model savings are modest because ~93.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-16 21:29 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-16 22:34 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
