@@ -28,7 +28,7 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.8h | 0.8h | 28.1h |
 | Additive observed work | 4.8h | 40.1h | 74.5h | 121.8h |
-| Interactive sessions | 1 | 10 | 26 | 41 |
+| Interactive sessions | 2 | 11 | 27 | 42 |
 | Worker sessions | 0 | 29 | 31 | 54 |
 
 _Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
@@ -44,7 +44,7 @@ _AI session 365-day totals cover 120 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | mimo-v2.5-free | 3,955 | 8.9M | 657K | 396.0M | $159.68 | $1,069.43 | $622.22 |
-| deepseek-v4-flash-free | 2,974 | 5.7M | 593K | 293.0M | $121.20 | $791.12 | $456.03 |
+| deepseek-v4-flash-free | 3,082 | 6.0M | 611K | 306.5M | $126.56 | $827.57 | $476.81 |
 | agnes-15-flash | 408 | 34.1M | 185K | 666K | $105.40 | $1.80 | $421.60 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | big-pickle | 826 | 1.5M | 132K | 71.7M | $29.16 | $0.00 | $140.14 |
@@ -53,19 +53,19 @@ _AI session 365-day totals cover 120 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **8,985** | **62.9M** | **1.7M** | **859.5M** | **$485.41** | **$2,127.13** | **$1,917.70** |
+| **Total** | **9,093** | **63.2M** | **1.7M** | **873.0M** | **$490.77** | **$2,163.58** | **$1,938.48** |
 
-_924.2M total tokens processed. 93% cache hit rate._
+_938.0M total tokens processed. 93.1% cache hit rate._
 
-_$4,044.83 total saved ($2,127.13 caching + $1,917.70 model routing vs all-Opus)._
+_$4,102.06 total saved ($2,163.58 caching + $1,938.48 model routing vs all-Opus)._
 
-_Model savings are modest because ~93% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.1% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 5,201 | 10.1M | 1.3M | 511.0M | $218.36 | $1,379.89 | $818.19 |
+| deepseek-v4-flash-free | 5,309 | 10.4M | 1.4M | 524.5M | $223.73 | $1,416.34 | $838.97 |
 | mimo-v2.5-free | 4,566 | 10.5M | 834K | 455.9M | $187.31 | $1,230.96 | $723.58 |
 | agnes-15-flash | 408 | 34.1M | 185K | 666K | $105.40 | $1.80 | $421.60 |
 | big-pickle | 1,774 | 2.7M | 378K | 168.9M | $72.21 | $0.00 | $323.67 |
@@ -77,13 +77,13 @@ _Model savings are modest because ~93% of tokens are cache reads, where price di
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **13,582** | **86.1M** | **3.1M** | **1,299.7M** | **$725.25** | **$2,877.44** | **$2,877.42** |
+| **Total** | **13,690** | **86.4M** | **3.1M** | **1,313.2M** | **$730.62** | **$2,913.89** | **$2,898.20** |
 
-_1,391.0M total tokens processed. 93.4% cache hit rate._
+_1,404.9M total tokens processed. 93.5% cache hit rate._
 
-_$5,754.86 total saved ($2,877.44 caching + $2,877.42 model routing vs all-Opus)._
+_$5,812.09 total saved ($2,913.89 caching + $2,898.20 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.4% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.5% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -123,5 +123,5 @@ _Model savings are modest because ~93.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-17 02:37 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-17 03:38 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
