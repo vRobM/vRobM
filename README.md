@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 16.6h | 108.4h | 108.4h | ~5138h* |
+| Screen time (Mac) | 16.6h | 105.9h | 105.9h | ~5154h* |
 | Interactive human attention | 1.6h | 23.9h | 37.6h | 48.1h |
 | Interactive AI generation | 1.5h | 16.1h | 38.9h | 48.7h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -45,7 +45,7 @@ _AI session 365-day totals cover 121 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | mimo-v2.5-free | 3,836 | 8.5M | 620K | 382.0M | $153.71 | $1,031.40 | $598.75 |
 | deepseek-v4-flash-free | 3,433 | 7.1M | 683K | 344.7M | $143.31 | $930.87 | $540.23 |
-| agnes-15-flash | 496 | 41.5M | 200K | 666K | $127.74 | $1.80 | $510.94 |
+| agnes-15-flash | 536 | 45.3M | 207K | 666K | $139.37 | $1.80 | $557.47 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | big-pickle | 826 | 1.5M | 132K | 71.7M | $29.16 | $0.00 | $140.14 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
@@ -53,13 +53,13 @@ _AI session 365-day totals cover 121 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **9,413** | **71.3M** | **1.7M** | **897.2M** | **$523.89** | **$2,228.85** | **$2,067.77** |
+| **Total** | **9,453** | **75.2M** | **1.7M** | **897.2M** | **$535.52** | **$2,228.85** | **$2,114.30** |
 
-_970.4M total tokens processed. 92.5% cache hit rate._
+_974.2M total tokens processed. 92.1% cache hit rate._
 
-_$4,296.62 total saved ($2,228.85 caching + $2,067.77 model routing vs all-Opus)._
+_$4,343.15 total saved ($2,228.85 caching + $2,114.30 model routing vs all-Opus)._
 
-_Model savings are modest because ~92.5% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~92.1% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -67,7 +67,7 @@ _Model savings are modest because ~92.5% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | deepseek-v4-flash-free | 5,660 | 11.5M | 1.4M | 562.8M | $240.47 | $1,519.64 | $902.39 |
 | mimo-v2.5-free | 4,566 | 10.5M | 834K | 455.9M | $187.31 | $1,230.96 | $723.58 |
-| agnes-15-flash | 496 | 41.5M | 200K | 666K | $127.74 | $1.80 | $510.94 |
+| agnes-15-flash | 536 | 45.3M | 207K | 666K | $139.37 | $1.80 | $557.47 |
 | big-pickle | 1,774 | 2.7M | 378K | 168.9M | $72.21 | $0.00 | $323.67 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | qwen3.6-plus-free | 163 | 13.2M | 54K | 0 | $40.69 | $0.00 | $162.28 |
@@ -77,13 +77,13 @@ _Model savings are modest because ~92.5% of tokens are cache reads, where price 
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **14,129** | **94.9M** | **3.2M** | **1,351.4M** | **$769.70** | **$3,017.19** | **$3,050.96** |
+| **Total** | **14,169** | **98.7M** | **3.2M** | **1,351.4M** | **$781.33** | **$3,017.19** | **$3,097.48** |
 
-_1,451.7M total tokens processed. 93.1% cache hit rate._
+_1,455.5M total tokens processed. 92.8% cache hit rate._
 
-_$6,068.14 total saved ($3,017.19 caching + $3,050.96 model routing vs all-Opus)._
+_$6,114.67 total saved ($3,017.19 caching + $3,097.48 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.1% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~92.8% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -123,5 +123,5 @@ _Model savings are modest because ~93.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-17 14:49 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-17 15:49 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
