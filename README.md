@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 16.6h | 97.5h | 97.5h | ~5012h* |
+| Screen time (Mac) | 16.6h | 95.9h | 95.9h | ~4930h* |
 | Interactive human attention | 1.6h | 23.9h | 37.6h | 48.1h |
 | Interactive AI generation | 1.5h | 16.1h | 38.9h | 48.7h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -43,7 +43,7 @@ _AI session 365-day totals cover 121 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| mimo-v2.5-free | 3,724 | 8.2M | 606K | 372.4M | $149.26 | $1,005.50 | $581.70 |
+| mimo-v2.5-free | 3,690 | 8.1M | 600K | 370.9M | $148.42 | $1,001.61 | $578.47 |
 | deepseek-v4-flash-free | 3,433 | 7.1M | 683K | 344.7M | $143.31 | $930.87 | $540.23 |
 | agnes-15-flash | 541 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
@@ -53,11 +53,11 @@ _AI session 365-day totals cover 121 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **9,346** | **75.2M** | **1.7M** | **887.6M** | **$532.49** | **$2,202.95** | **$2,102.92** |
+| **Total** | **9,312** | **75.1M** | **1.7M** | **886.2M** | **$531.65** | **$2,199.06** | **$2,099.69** |
 
-_964.7M total tokens processed. 92% cache hit rate._
+_963.1M total tokens processed. 92% cache hit rate._
 
-_$4,305.87 total saved ($2,202.95 caching + $2,102.92 model routing vs all-Opus)._
+_$4,298.75 total saved ($2,199.06 caching + $2,099.69 model routing vs all-Opus)._
 
 _Model savings are modest because ~92% of tokens are cache reads, where price differences between models are small._
 
@@ -123,5 +123,5 @@ _Model savings are modest because ~92.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-18 01:56 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-18 03:57 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
