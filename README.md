@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 11.1h | 95.2h | 95.2h | ~4760h* |
+| Screen time (Mac) | 11.1h | 94.1h | 94.1h | ~4705h* |
 | Interactive human attention | 0.0h | 17.9h | 39.0h | 49.6h |
 | Interactive AI generation | 0.0h | 13.8h | 40.8h | 50.6h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -43,7 +43,7 @@ _AI session 365-day totals cover 121 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| mimo-v2.5-free | 3,596 | 7.9M | 589K | 364.5M | $145.90 | $984.40 | $568.72 |
+| mimo-v2.5-free | 3,594 | 7.9M | 589K | 364.5M | $145.80 | $984.32 | $568.32 |
 | deepseek-v4-flash-free | 3,432 | 7.1M | 683K | 344.7M | $143.31 | $930.87 | $540.23 |
 | agnes-15-flash | 541 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
@@ -53,11 +53,11 @@ _AI session 365-day totals cover 121 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **9,217** | **75.0M** | **1.7M** | **879.8M** | **$529.13** | **$2,181.85** | **$2,089.94** |
+| **Total** | **9,215** | **75.0M** | **1.7M** | **879.8M** | **$529.03** | **$2,181.77** | **$2,089.54** |
 
 _956.6M total tokens processed. 92% cache hit rate._
 
-_$4,271.80 total saved ($2,181.85 caching + $2,089.94 model routing vs all-Opus)._
+_$4,271.31 total saved ($2,181.77 caching + $2,089.54 model routing vs all-Opus)._
 
 _Model savings are modest because ~92% of tokens are cache reads, where price differences between models are small._
 
@@ -123,5 +123,5 @@ _Model savings are modest because ~92.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-19 22:25 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-19 23:26 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
