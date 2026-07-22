@@ -43,8 +43,8 @@ _AI session 365-day totals cover 121 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| mimo-v2.5-free | 3,501 | 7.8M | 570K | 360.4M | $143.77 | $973.11 | $560.57 |
 | deepseek-v4-flash-free | 3,432 | 7.1M | 683K | 344.7M | $143.31 | $930.87 | $540.23 |
+| mimo-v2.5-free | 3,482 | 7.8M | 567K | 359.0M | $143.29 | $969.51 | $558.74 |
 | agnes-15-flash | 541 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | big-pickle | 826 | 1.5M | 132K | 71.7M | $29.16 | $0.00 | $140.14 |
@@ -53,13 +53,13 @@ _AI session 365-day totals cover 121 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **9,122** | **74.9M** | **1.7M** | **875.6M** | **$527.00** | **$2,170.55** | **$2,081.79** |
+| **Total** | **9,103** | **74.9M** | **1.7M** | **874.3M** | **$526.52** | **$2,166.96** | **$2,079.96** |
 
-_952.3M total tokens processed. 92% cache hit rate._
+_950.9M total tokens processed. 91.9% cache hit rate._
 
-_$4,252.35 total saved ($2,170.55 caching + $2,081.79 model routing vs all-Opus)._
+_$4,246.92 total saved ($2,166.96 caching + $2,079.96 model routing vs all-Opus)._
 
-_Model savings are modest because ~92% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~91.9% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -123,5 +123,5 @@ _Model savings are modest because ~92.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-22 03:11 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-22 04:11 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
