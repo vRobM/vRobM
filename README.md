@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 13.5h | 89.3h | 89.3h | ~4465h* |
+| Screen time (Mac) | 13.5h | 87.1h | 87.1h | ~4416h* |
 | Interactive human attention | 0.0h | 3.0h | 38.4h | 49.6h |
 | Interactive AI generation | 0.0h | 3.4h | 39.2h | 50.6h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -43,7 +43,7 @@ _AI session 365-day totals cover 127 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 3,453 | 7.2M | 725K | 346.8M | $144.99 | $936.49 | $546.97 |
+| deepseek-v4-flash-free | 3,502 | 7.5M | 767K | 351.1M | $147.70 | $947.97 | $557.79 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | mimo-v2.5-free | 3,412 | 7.7M | 558K | 351.5M | $140.58 | $949.25 | $548.14 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
@@ -53,19 +53,19 @@ _AI session 365-day totals cover 127 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **9,385** | **85.1M** | **1.9M** | **884.6M** | **$565.67** | **$2,156.72** | **$2,233.78** |
+| **Total** | **9,434** | **85.3M** | **1.9M** | **888.9M** | **$568.38** | **$2,168.20** | **$2,244.60** |
 
-_971.7M total tokens processed. 91% cache hit rate._
+_976.2M total tokens processed. 91.1% cache hit rate._
 
-_$4,390.50 total saved ($2,156.72 caching + $2,233.78 model routing vs all-Opus)._
+_$4,412.80 total saved ($2,168.20 caching + $2,244.60 model routing vs all-Opus)._
 
-_Model savings are modest because ~91% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~91.1% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 5,681 | 11.6M | 1.5M | 564.9M | $242.15 | $1,525.27 | $909.14 |
+| deepseek-v4-flash-free | 5,730 | 11.9M | 1.5M | 569.1M | $244.86 | $1,536.74 | $919.96 |
 | mimo-v2.5-free | 4,566 | 10.5M | 834K | 455.9M | $187.31 | $1,230.96 | $723.58 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | big-pickle | 1,969 | 3.4M | 431K | 183.0M | $81.56 | $0.00 | $358.07 |
@@ -77,13 +77,13 @@ _Model savings are modest because ~91% of tokens are cache reads, where price di
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **14,526** | **109.5M** | **3.4M** | **1,369.3M** | **$824.60** | **$3,027.21** | **$3,267.57** |
+| **Total** | **14,575** | **109.8M** | **3.5M** | **1,373.5M** | **$827.31** | **$3,038.69** | **$3,278.39** |
 
-_1,484.3M total tokens processed. 92.2% cache hit rate._
+_1,488.9M total tokens processed. 92.3% cache hit rate._
 
-_$6,294.78 total saved ($3,027.21 caching + $3,267.57 model routing vs all-Opus)._
+_$6,317.08 total saved ($3,038.69 caching + $3,278.39 model routing vs all-Opus)._
 
-_Model savings are modest because ~92.2% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~92.3% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -123,5 +123,5 @@ _Model savings are modest because ~92.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-23 23:37 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-24 00:38 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
