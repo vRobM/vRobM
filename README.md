@@ -45,7 +45,7 @@ _AI session 365-day totals cover 128 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | deepseek-v4-flash-free | 3,567 | 11.7M | 795K | 352.7M | $161.15 | $952.40 | $611.60 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
-| mimo-v2.5-free | 3,335 | 7.5M | 531K | 345.5M | $137.71 | $933.12 | $537.27 |
+| mimo-v2.5-free | 3,330 | 7.5M | 530K | 344.9M | $137.49 | $931.25 | $536.39 |
 | agnes-20-flash | 397 | 27.2M | 162K | 4.1M | $85.42 | $11.18 | $341.63 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | big-pickle | 1,422 | 3.3M | 295K | 122.8M | $55.63 | $0.00 | $256.87 |
@@ -53,11 +53,11 @@ _AI session 365-day totals cover 128 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **10,079** | **108.0M** | **2.1M** | **924.0M** | **$649.87** | **$2,163.28** | **$2,585.03** |
+| **Total** | **10,074** | **108.0M** | **2.1M** | **923.3M** | **$649.65** | **$2,161.42** | **$2,584.14** |
 
-_1,034.2M total tokens processed. 89.3% cache hit rate._
+_1,033.5M total tokens processed. 89.3% cache hit rate._
 
-_$4,748.31 total saved ($2,163.28 caching + $2,585.03 model routing vs all-Opus)._
+_$4,745.56 total saved ($2,161.42 caching + $2,584.14 model routing vs all-Opus)._
 
 _Model savings are modest because ~89.3% of tokens are cache reads, where price differences between models are small._
 
@@ -123,5 +123,5 @@ _Model savings are modest because ~91.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-24 21:50 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-24 23:51 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
