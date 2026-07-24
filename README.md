@@ -28,7 +28,7 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.0h | 0.8h | 28.2h |
 | Additive observed work | 9.2h | 12.5h | 87.0h | 137.5h |
-| Interactive sessions | 3 | 4 | 20 | 45 |
+| Interactive sessions | 4 | 5 | 21 | 46 |
 | Worker sessions | 0 | 1 | 32 | 55 |
 
 _Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
@@ -48,16 +48,16 @@ _AI session 365-day totals cover 128 days of local assistant session history (no
 | mimo-v2.5-free | 3,335 | 7.5M | 531K | 345.5M | $137.71 | $933.12 | $537.27 |
 | agnes-20-flash | 397 | 27.2M | 162K | 4.1M | $85.42 | $11.18 | $341.63 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
-| big-pickle | 1,405 | 3.3M | 293K | 121.7M | $55.20 | $0.00 | $254.77 |
+| big-pickle | 1,422 | 3.3M | 295K | 122.8M | $55.63 | $0.00 | $256.87 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **10,062** | **108.0M** | **2.1M** | **922.9M** | **$649.44** | **$2,163.28** | **$2,582.93** |
+| **Total** | **10,079** | **108.0M** | **2.1M** | **924.0M** | **$649.87** | **$2,163.28** | **$2,585.03** |
 
-_1,033.1M total tokens processed. 89.3% cache hit rate._
+_1,034.2M total tokens processed. 89.3% cache hit rate._
 
-_$4,746.21 total saved ($2,163.28 caching + $2,582.93 model routing vs all-Opus)._
+_$4,748.31 total saved ($2,163.28 caching + $2,585.03 model routing vs all-Opus)._
 
 _Model savings are modest because ~89.3% of tokens are cache reads, where price differences between models are small._
 
@@ -68,7 +68,7 @@ _Model savings are modest because ~89.3% of tokens are cache reads, where price 
 | deepseek-v4-flash-free | 5,795 | 16.0M | 1.5M | 570.8M | $258.31 | $1,541.17 | $973.76 |
 | mimo-v2.5-free | 4,566 | 10.5M | 834K | 455.9M | $187.31 | $1,230.96 | $723.58 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
-| big-pickle | 2,353 | 4.6M | 539K | 218.8M | $98.25 | $0.00 | $438.31 |
+| big-pickle | 2,370 | 4.6M | 542K | 219.9M | $98.68 | $0.00 | $440.41 |
 | agnes-20-flash | 397 | 27.2M | 162K | 4.1M | $85.42 | $11.18 | $341.63 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | qwen3.6-plus-free | 163 | 13.2M | 54K | 0 | $40.69 | $0.00 | $162.28 |
@@ -77,11 +77,11 @@ _Model savings are modest because ~89.3% of tokens are cache reads, where price 
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **15,280** | **132.6M** | **3.6M** | **1,413.5M** | **$911.25** | **$3,049.90** | **$3,627.59** |
+| **Total** | **15,297** | **132.6M** | **3.6M** | **1,414.6M** | **$911.68** | **$3,049.90** | **$3,629.69** |
 
-_1,551.9M total tokens processed. 91.1% cache hit rate._
+_1,553.1M total tokens processed. 91.1% cache hit rate._
 
-_$6,677.49 total saved ($3,049.90 caching + $3,627.59 model routing vs all-Opus)._
+_$6,679.59 total saved ($3,049.90 caching + $3,629.69 model routing vs all-Opus)._
 
 _Model savings are modest because ~91.1% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -123,5 +123,5 @@ _Model savings are modest because ~91.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-24 18:48 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-24 19:49 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
