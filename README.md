@@ -22,13 +22,13 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 15.2h | 90.2h | 90.2h | ~4573h* |
-| Interactive human attention | 2.6h | 7.6h | 44.4h | 57.2h |
-| Interactive AI generation | 1.4h | 5.6h | 42.5h | 56.1h |
+| Screen time (Mac) | 12.6h | 98.9h | 102.8h | ~4576h* |
+| Interactive human attention | 0.5h | 8.2h | 44.9h | 57.7h |
+| Interactive AI generation | 1.3h | 6.8h | 43.8h | 57.4h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.0h | 0.8h | 28.2h |
-| Additive observed work | 4.0h | 13.2h | 87.7h | 141.5h |
-| Interactive sessions | 6 | 7 | 23 | 49 |
+| Additive observed work | 1.8h | 15.0h | 89.5h | 143.3h |
+| Interactive sessions | 3 | 7 | 23 | 49 |
 | Worker sessions | 0 | 0 | 32 | 55 |
 
 _Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
@@ -123,5 +123,5 @@ _Model savings are modest because ~91.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-26 01:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-26 05:09 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
