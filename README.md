@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 13h | 92.6h | 92.6h | ~4567h* |
+| Screen time (Mac) | 13h | 90.3h | 90.3h | ~4515h* |
 | Interactive human attention | 0.4h | 10.6h | 43.4h | 60.2h |
 | Interactive AI generation | 0.2h | 7.9h | 41.5h | 58.4h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -45,7 +45,7 @@ _AI session 365-day totals cover 132 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | deepseek-v4-flash-free | 3,567 | 11.7M | 795K | 352.7M | $161.15 | $952.40 | $611.60 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
-| mimo-v2.5-free | 2,980 | 6.6M | 485K | 314.5M | $124.49 | $849.40 | $485.87 |
+| mimo-v2.5-free | 2,963 | 6.3M | 482K | 313.5M | $123.42 | $846.68 | $481.60 |
 | big-pickle | 2,316 | 5.8M | 489K | 198.8M | $90.47 | $0.00 | $422.38 |
 | agnes-20-flash | 397 | 27.2M | 162K | 4.1M | $85.42 | $11.18 | $341.63 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
@@ -53,13 +53,13 @@ _AI session 365-day totals cover 132 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **10,618** | **109.5M** | **2.2M** | **969.0M** | **$671.49** | **$2,079.56** | **$2,699.14** |
+| **Total** | **10,601** | **109.3M** | **2.2M** | **968.0M** | **$670.42** | **$2,076.84** | **$2,694.87** |
 
-_1,080.8M total tokens processed. 89.6% cache hit rate._
+_1,079.6M total tokens processed. 89.7% cache hit rate._
 
-_$4,778.70 total saved ($2,079.56 caching + $2,699.14 model routing vs all-Opus)._
+_$4,771.71 total saved ($2,076.84 caching + $2,694.87 model routing vs all-Opus)._
 
-_Model savings are modest because ~89.6% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~89.7% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -123,5 +123,5 @@ _Model savings are modest because ~91.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-28 20:47 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-28 21:48 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
