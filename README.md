@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 13h | 94.7h | 94.7h | ~4609h* |
+| Screen time (Mac) | 13h | 92.6h | 92.6h | ~4567h* |
 | Interactive human attention | 0.4h | 10.6h | 43.4h | 60.2h |
 | Interactive AI generation | 0.2h | 7.9h | 41.5h | 58.4h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -46,20 +46,20 @@ _AI session 365-day totals cover 132 days of local assistant session history (no
 | deepseek-v4-flash-free | 3,567 | 11.7M | 795K | 352.7M | $161.15 | $952.40 | $611.60 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | mimo-v2.5-free | 2,980 | 6.6M | 485K | 314.5M | $124.49 | $849.40 | $485.87 |
+| big-pickle | 2,227 | 5.6M | 473K | 188.4M | $86.34 | $0.00 | $402.47 |
 | agnes-20-flash | 397 | 27.2M | 162K | 4.1M | $85.42 | $11.18 | $341.63 |
-| big-pickle | 2,033 | 4.9M | 430K | 170.1M | $77.72 | $0.00 | $362.02 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **10,335** | **108.7M** | **2.2M** | **940.3M** | **$658.74** | **$2,079.56** | **$2,638.77** |
+| **Total** | **10,529** | **109.3M** | **2.2M** | **958.6M** | **$667.36** | **$2,079.56** | **$2,679.22** |
 
-_1,051.2M total tokens processed. 89.4% cache hit rate._
+_1,070.2M total tokens processed. 89.6% cache hit rate._
 
-_$4,718.33 total saved ($2,079.56 caching + $2,638.77 model routing vs all-Opus)._
+_$4,758.78 total saved ($2,079.56 caching + $2,679.22 model routing vs all-Opus)._
 
-_Model savings are modest because ~89.4% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~89.6% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -68,7 +68,7 @@ _Model savings are modest because ~89.4% of tokens are cache reads, where price 
 | deepseek-v4-flash-free | 5,795 | 16.0M | 1.5M | 570.8M | $258.31 | $1,541.17 | $973.76 |
 | mimo-v2.5-free | 4,566 | 10.5M | 834K | 455.9M | $187.31 | $1,230.96 | $723.58 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
-| big-pickle | 2,981 | 6.2M | 677K | 267.2M | $120.77 | $0.00 | $545.56 |
+| big-pickle | 3,175 | 6.9M | 719K | 285.5M | $129.38 | $0.00 | $586.01 |
 | agnes-20-flash | 397 | 27.2M | 162K | 4.1M | $85.42 | $11.18 | $341.63 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | qwen3.6-plus-free | 163 | 13.2M | 54K | 0 | $40.69 | $0.00 | $162.28 |
@@ -77,11 +77,11 @@ _Model savings are modest because ~89.4% of tokens are cache reads, where price 
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **15,908** | **134.2M** | **3.8M** | **1,461.9M** | **$933.77** | **$3,049.90** | **$3,734.83** |
+| **Total** | **16,102** | **134.9M** | **3.8M** | **1,480.2M** | **$942.38** | **$3,049.90** | **$3,775.28** |
 
-_1,602.1M total tokens processed. 91.3% cache hit rate._
+_1,621.1M total tokens processed. 91.3% cache hit rate._
 
-_$6,784.74 total saved ($3,049.90 caching + $3,734.83 model routing vs all-Opus)._
+_$6,825.19 total saved ($3,049.90 caching + $3,775.28 model routing vs all-Opus)._
 
 _Model savings are modest because ~91.3% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -123,5 +123,5 @@ _Model savings are modest because ~91.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-28 18:46 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-28 19:46 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
