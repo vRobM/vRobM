@@ -28,7 +28,7 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.0h | 0.9h | 28.2h |
 | Additive observed work | 0.6h | 18.5h | 85.7h | 146.8h |
-| Interactive sessions | 4 | 11 | 26 | 53 |
+| Interactive sessions | 5 | 12 | 27 | 54 |
 | Worker sessions | 0 | 2 | 34 | 57 |
 
 _Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
@@ -46,18 +46,18 @@ _AI session 365-day totals cover 132 days of local assistant session history (no
 | deepseek-v4-flash-free | 3,567 | 11.7M | 795K | 352.7M | $161.15 | $952.40 | $611.60 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | mimo-v2.5-free | 2,980 | 6.6M | 485K | 314.5M | $124.49 | $849.40 | $485.87 |
-| big-pickle | 2,227 | 5.6M | 473K | 188.4M | $86.34 | $0.00 | $402.47 |
+| big-pickle | 2,316 | 5.8M | 489K | 198.8M | $90.47 | $0.00 | $422.38 |
 | agnes-20-flash | 397 | 27.2M | 162K | 4.1M | $85.42 | $11.18 | $341.63 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **10,529** | **109.3M** | **2.2M** | **958.6M** | **$667.36** | **$2,079.56** | **$2,679.22** |
+| **Total** | **10,618** | **109.5M** | **2.2M** | **969.0M** | **$671.49** | **$2,079.56** | **$2,699.14** |
 
-_1,070.2M total tokens processed. 89.6% cache hit rate._
+_1,080.8M total tokens processed. 89.6% cache hit rate._
 
-_$4,758.78 total saved ($2,079.56 caching + $2,679.22 model routing vs all-Opus)._
+_$4,778.70 total saved ($2,079.56 caching + $2,699.14 model routing vs all-Opus)._
 
 _Model savings are modest because ~89.6% of tokens are cache reads, where price differences between models are small._
 
@@ -68,7 +68,7 @@ _Model savings are modest because ~89.6% of tokens are cache reads, where price 
 | deepseek-v4-flash-free | 5,795 | 16.0M | 1.5M | 570.8M | $258.31 | $1,541.17 | $973.76 |
 | mimo-v2.5-free | 4,566 | 10.5M | 834K | 455.9M | $187.31 | $1,230.96 | $723.58 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
-| big-pickle | 3,175 | 6.9M | 719K | 285.5M | $129.38 | $0.00 | $586.01 |
+| big-pickle | 3,264 | 7.1M | 736K | 295.9M | $133.52 | $0.00 | $605.92 |
 | agnes-20-flash | 397 | 27.2M | 162K | 4.1M | $85.42 | $11.18 | $341.63 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | qwen3.6-plus-free | 163 | 13.2M | 54K | 0 | $40.69 | $0.00 | $162.28 |
@@ -77,13 +77,13 @@ _Model savings are modest because ~89.6% of tokens are cache reads, where price 
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **16,102** | **134.9M** | **3.8M** | **1,480.2M** | **$942.38** | **$3,049.90** | **$3,775.28** |
+| **Total** | **16,191** | **135.1M** | **3.8M** | **1,490.6M** | **$946.52** | **$3,049.90** | **$3,795.20** |
 
-_1,621.1M total tokens processed. 91.3% cache hit rate._
+_1,631.7M total tokens processed. 91.4% cache hit rate._
 
-_$6,825.19 total saved ($3,049.90 caching + $3,775.28 model routing vs all-Opus)._
+_$6,845.10 total saved ($3,049.90 caching + $3,795.20 model routing vs all-Opus)._
 
-_Model savings are modest because ~91.3% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~91.4% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -123,5 +123,5 @@ _Model savings are modest because ~91.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-28 19:46 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-28 20:47 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
