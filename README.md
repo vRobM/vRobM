@@ -22,13 +22,13 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 14h | 86.1h | 86.1h | ~4426h* |
-| Interactive human attention | 4.0h | 14.6h | 47.4h | 64.1h |
-| Interactive AI generation | 1.2h | 9.1h | 42.7h | 59.7h |
+| Screen time (Mac) | 14.2h | 98.4h | 100.3h | ~4520h* |
+| Interactive human attention | 1.4h | 16.0h | 48.8h | 65.6h |
+| Interactive AI generation | 1.5h | 10.6h | 44.1h | 61.2h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.0h | 0.9h | 28.2h |
-| Additive observed work | 5.2h | 23.8h | 91.0h | 152.0h |
-| Interactive sessions | 17 | 25 | 40 | 67 |
+| Additive observed work | 2.9h | 26.7h | 93.8h | 155.0h |
+| Interactive sessions | 9 | 25 | 38 | 67 |
 | Worker sessions | 0 | 2 | 34 | 57 |
 
 _Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
@@ -37,7 +37,7 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 133 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 134 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
@@ -125,5 +125,5 @@ _Model savings are modest because ~91.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-30 04:23 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-30 05:24 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
