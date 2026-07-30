@@ -43,10 +43,10 @@ _AI session 365-day totals cover 133 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 3,596 | 11.8M | 798K | 355.9M | $162.63 | $961.10 | $617.15 |
+| deepseek-v4-flash-free | 3,699 | 12.0M | 830K | 369.8M | $168.21 | $998.70 | $638.57 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
-| mimo-v2.5-free | 2,511 | 5.4M | 406K | 264.0M | $104.16 | $712.95 | $406.24 |
-| big-pickle | 2,531 | 6.7M | 542K | 223.2M | $102.20 | $0.00 | $477.27 |
+| big-pickle | 2,559 | 6.7M | 545K | 226.2M | $103.19 | $0.00 | $482.12 |
+| mimo-v2.5-free | 2,479 | 5.3M | 399K | 260.5M | $102.84 | $703.53 | $401.41 |
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | $101.58 | $20.43 | $406.28 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
@@ -54,21 +54,21 @@ _AI session 365-day totals cover 133 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **10,478** | **114.9M** | **2.2M** | **949.5M** | **$682.06** | **$1,961.06** | **$2,750.64** |
+| **Total** | **10,577** | **115.1M** | **2.3M** | **962.9M** | **$687.31** | **$1,989.24** | **$2,772.07** |
 
-_1,066.7M total tokens processed. 89% cache hit rate._
+_1,080.4M total tokens processed. 89.1% cache hit rate._
 
-_$4,711.70 total saved ($1,961.06 caching + $2,750.64 model routing vs all-Opus)._
+_$4,761.31 total saved ($1,989.24 caching + $2,772.07 model routing vs all-Opus)._
 
-_Model savings are modest because ~89% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~89.1% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 5,824 | 16.2M | 1.5M | 574.0M | $259.79 | $1,549.87 | $979.31 |
+| deepseek-v4-flash-free | 5,927 | 16.4M | 1.6M | 587.9M | $265.37 | $1,587.48 | $1,000.74 |
 | mimo-v2.5-free | 4,566 | 10.5M | 834K | 455.9M | $187.31 | $1,230.96 | $723.58 |
-| big-pickle | 3,479 | 8.0M | 788K | 320.3M | $145.25 | $0.00 | $660.81 |
+| big-pickle | 3,507 | 8.0M | 791K | 323.4M | $146.24 | $0.00 | $665.66 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | $101.58 | $20.43 | $406.28 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
@@ -79,11 +79,11 @@ _Model savings are modest because ~89% of tokens are cache reads, where price di
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **16,520** | **141.6M** | **3.9M** | **1,521.7M** | **$977.42** | **$3,067.85** | **$3,926.33** |
+| **Total** | **16,651** | **141.9M** | **3.9M** | **1,538.6M** | **$983.99** | **$3,105.45** | **$3,952.60** |
 
-_1,669.3M total tokens processed. 91.2% cache hit rate._
+_1,686.6M total tokens processed. 91.2% cache hit rate._
 
-_$6,994.18 total saved ($3,067.85 caching + $3,926.33 model routing vs all-Opus)._
+_$7,058.05 total saved ($3,105.45 caching + $3,952.60 model routing vs all-Opus)._
 
 _Model savings are modest because ~91.2% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -125,5 +125,5 @@ _Model savings are modest because ~91.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-30 01:21 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-30 02:22 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
