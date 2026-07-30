@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 14.2h | 95.5h | 95.5h | ~4587h* |
+| Screen time (Mac) | 14.2h | 94h | 94h | ~4575h* |
 | Interactive human attention | 1.4h | 16.0h | 48.8h | 65.6h |
 | Interactive AI generation | 1.5h | 10.6h | 44.1h | 61.2h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -43,7 +43,7 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 3,699 | 12.0M | 830K | 369.8M | $168.21 | $998.70 | $638.57 |
+| deepseek-v4-flash-free | 3,725 | 12.2M | 833K | 373.8M | $169.99 | $1,009.41 | $645.41 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | big-pickle | 2,559 | 6.7M | 545K | 226.2M | $103.19 | $0.00 | $482.12 |
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | $101.58 | $20.43 | $406.28 |
@@ -54,11 +54,11 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **10,541** | **115.1M** | **2.2M** | **958.5M** | **$685.81** | **$1,977.18** | **$2,766.25** |
+| **Total** | **10,567** | **115.2M** | **2.3M** | **962.4M** | **$687.59** | **$1,987.89** | **$2,773.09** |
 
-_1,075.9M total tokens processed. 89.1% cache hit rate._
+_1,080.1M total tokens processed. 89.1% cache hit rate._
 
-_$4,743.43 total saved ($1,977.18 caching + $2,766.25 model routing vs all-Opus)._
+_$4,760.98 total saved ($1,987.89 caching + $2,773.09 model routing vs all-Opus)._
 
 _Model savings are modest because ~89.1% of tokens are cache reads, where price differences between models are small._
 
@@ -66,7 +66,7 @@ _Model savings are modest because ~89.1% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 5,927 | 16.4M | 1.6M | 587.9M | $265.37 | $1,587.48 | $1,000.74 |
+| deepseek-v4-flash-free | 5,953 | 16.6M | 1.6M | 591.9M | $267.15 | $1,598.19 | $1,007.58 |
 | mimo-v2.5-free | 4,566 | 10.5M | 834K | 455.9M | $187.31 | $1,230.96 | $723.58 |
 | big-pickle | 3,507 | 8.0M | 791K | 323.4M | $146.24 | $0.00 | $665.66 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
@@ -79,11 +79,11 @@ _Model savings are modest because ~89.1% of tokens are cache reads, where price 
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **16,651** | **141.9M** | **3.9M** | **1,538.6M** | **$983.99** | **$3,105.45** | **$3,952.60** |
+| **Total** | **16,677** | **142.0M** | **4.0M** | **1,542.6M** | **$985.77** | **$3,116.16** | **$3,959.44** |
 
-_1,686.6M total tokens processed. 91.2% cache hit rate._
+_1,690.7M total tokens processed. 91.2% cache hit rate._
 
-_$7,058.05 total saved ($3,105.45 caching + $3,952.60 model routing vs all-Opus)._
+_$7,075.60 total saved ($3,116.16 caching + $3,959.44 model routing vs all-Opus)._
 
 _Model savings are modest because ~91.2% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -125,5 +125,5 @@ _Model savings are modest because ~91.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-30 15:30 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-30 17:31 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
