@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 13.4h | 90.5h | 90.5h | ~4404h* |
+| Screen time (Mac) | 13.4h | 89.4h | 89.4h | ~4351h* |
 | Interactive human attention | 0.0h | 8.9h | 48.5h | 66.1h |
 | Interactive AI generation | 0.0h | 6.9h | 45.8h | 63.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -47,18 +47,18 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | big-pickle | 2,559 | 6.7M | 545K | 226.2M | $103.19 | $0.00 | $482.12 |
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | $101.58 | $20.43 | $406.28 |
-| mimo-v2.5-free | 2,386 | 4.8M | 388K | 249.6M | $97.64 | $674.18 | $381.04 |
+| mimo-v2.5-free | 2,366 | 4.7M | 381K | 248.7M | $97.06 | $671.57 | $378.79 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
 | north-mini-code-free | 6 | 498K | 1K | 0 | $1.53 | $0.00 | $6.04 |
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **10,901** | **115.1M** | **2.3M** | **1,008.5M** | **$702.68** | **$2,112.16** | **$2,830.15** |
+| **Total** | **10,881** | **115.0M** | **2.3M** | **1,007.5M** | **$702.10** | **$2,109.54** | **$2,827.91** |
 
-_1,126.0M total tokens processed. 89.6% cache hit rate._
+_1,124.9M total tokens processed. 89.6% cache hit rate._
 
-_$4,942.31 total saved ($2,112.16 caching + $2,830.15 model routing vs all-Opus)._
+_$4,937.45 total saved ($2,109.54 caching + $2,827.91 model routing vs all-Opus)._
 
 _Model savings are modest because ~89.6% of tokens are cache reads, where price differences between models are small._
 
@@ -125,7 +125,7 @@ _Model savings are modest because ~91.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-01 17:55 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-01 18:55 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
