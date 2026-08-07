@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 13.9h | 77h | 77h | ~3850h* |
+| Screen time (Mac) | 13.9h | 76h | 76h | ~3853h* |
 | Interactive human attention | 0.0h | 0.5h | 42.7h | 66.1h |
 | Interactive AI generation | 0.0h | 1.8h | 32.0h | 63.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -48,17 +48,17 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 | big-pickle | 2,559 | 6.7M | 545K | 226.2M | $103.19 | $0.00 | $482.12 |
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | $101.58 | $20.43 | $406.28 |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | $66.53 | $264.78 | $263.89 |
-| mimo-v2.5-free | 1,547 | 3.5M | 275K | 162.1M | $65.05 | $437.91 | $253.24 |
+| mimo-v2.5-free | 1,487 | 3.4M | 270K | 157.0M | $63.21 | $424.06 | $246.22 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
 | north-mini-code-free | 6 | 498K | 1K | 0 | $1.53 | $0.00 | $6.04 |
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **10,062** | **113.7M** | **2.2M** | **921.0M** | **$670.09** | **$1,875.89** | **$2,702.36** |
+| **Total** | **10,002** | **113.7M** | **2.2M** | **915.8M** | **$668.25** | **$1,862.03** | **$2,695.34** |
 
-_1,037.0M total tokens processed. 88.8% cache hit rate._
+_1,031.8M total tokens processed. 88.8% cache hit rate._
 
-_$4,578.24 total saved ($1,875.89 caching + $2,702.36 model routing vs all-Opus)._
+_$4,557.37 total saved ($1,862.03 caching + $2,695.34 model routing vs all-Opus)._
 
 _Model savings are modest because ~88.8% of tokens are cache reads, where price differences between models are small._
 
@@ -125,7 +125,7 @@ _Model savings are modest because ~91.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-06 23:45 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-07 00:46 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
