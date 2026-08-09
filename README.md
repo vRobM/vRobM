@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 15.6h | 84h | 84h | ~4200h* |
+| Screen time (Mac) | 15.6h | 83.7h | 83.7h | ~4185h* |
 | Interactive human attention | 0.0h | 0.0h | 34.5h | 66.1h |
 | Interactive AI generation | 0.0h | 0.0h | 26.2h | 63.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -43,7 +43,7 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 4,116 | 12.6M | 903K | 426.2M | $188.78 | $1,150.96 | $717.02 |
+| deepseek-v4-flash-free | 4,074 | 12.3M | 895K | 423.2M | $186.89 | $1,142.64 | $710.01 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | $101.58 | $20.43 | $406.28 |
 | big-pickle | 1,928 | 5.5M | 452K | 169.8M | $80.35 | $0.00 | $372.69 |
@@ -54,11 +54,11 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **8,281** | **105.6M** | **1.9M** | **726.4M** | **$580.35** | **$1,502.92** | **$2,330.23** |
+| **Total** | **8,239** | **105.3M** | **1.9M** | **723.4M** | **$578.46** | **$1,494.60** | **$2,323.22** |
 
-_834.0M total tokens processed. 87.1% cache hit rate._
+_830.7M total tokens processed. 87.1% cache hit rate._
 
-_$3,833.15 total saved ($1,502.92 caching + $2,330.23 model routing vs all-Opus)._
+_$3,817.82 total saved ($1,494.60 caching + $2,323.22 model routing vs all-Opus)._
 
 _Model savings are modest because ~87.1% of tokens are cache reads, where price differences between models are small._
 
@@ -125,7 +125,7 @@ _Model savings are modest because ~91.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-09 21:30 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-09 22:31 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
