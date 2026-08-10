@@ -22,14 +22,14 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 15.6h | 82.2h | 82.2h | ~4167h* |
-| Interactive human attention | 0.0h | 0.0h | 34.5h | 66.1h |
-| Interactive AI generation | 0.0h | 0.0h | 26.2h | 63.0h |
+| Screen time (Mac) | 15.5h | 88.9h | 88.8h | ~4636h* |
+| Interactive human attention | 0.0h | 0.0h | 31.0h | 66.1h |
+| Interactive AI generation | 0.0h | 0.0h | 22.6h | 63.0h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.0h | 0.8h | 28.2h |
-| Additive observed work | 0.0h | 0.0h | 61.6h | 157.3h |
-| Interactive sessions | 0 | 0 | 28 | 67 |
-| Worker sessions | 0 | 0 | 31 | 57 |
+| Additive observed work | 0.0h | 0.0h | 54.3h | 157.3h |
+| Interactive sessions | 0 | 0 | 27 | 67 |
+| Worker sessions | 0 | 0 | 24 | 57 |
 
 _Screen time from macos-pmset-display-assertions; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -43,24 +43,24 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 4,005 | 12.1M | 864K | 416.2M | $183.41 | $1,123.90 | $696.78 |
+| deepseek-v4-flash-free | 3,964 | 11.7M | 849K | 412.1M | $180.61 | $1,112.90 | $686.15 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | $101.58 | $20.43 | $406.28 |
 | big-pickle | 1,928 | 5.5M | 452K | 169.8M | $80.35 | $0.00 | $372.69 |
 | nemotron-3-ultra-free | 551 | 6.0M | 64K | 60.4M | $37.58 | $163.08 | $148.79 |
-| mimo-v2.5-free | 629 | 1.9M | 127K | 61.7M | $27.10 | $166.65 | $105.64 |
+| mimo-v2.5-free | 569 | 1.6M | 98K | 57.2M | $24.23 | $154.49 | $94.67 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
 | north-mini-code-free | 6 | 498K | 1K | 0 | $1.53 | $0.00 | $6.04 |
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **8,170** | **105.1M** | **1.8M** | **716.4M** | **$574.98** | **$1,475.85** | **$2,309.99** |
+| **Total** | **8,069** | **104.4M** | **1.8M** | **707.8M** | **$569.31** | **$1,452.70** | **$2,288.39** |
 
-_823.5M total tokens processed. 87% cache hit rate._
+_814.1M total tokens processed. 86.9% cache hit rate._
 
-_$3,785.84 total saved ($1,475.85 caching + $2,309.99 model routing vs all-Opus)._
+_$3,741.09 total saved ($1,452.70 caching + $2,288.39 model routing vs all-Opus)._
 
-_Model savings are modest because ~87% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~86.9% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -125,7 +125,7 @@ _Model savings are modest because ~91.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-10 01:34 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-10 20:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
