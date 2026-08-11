@@ -46,19 +46,19 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 | deepseek-v4-flash-free | 3,583 | 11.3M | 767K | 377.8M | $167.60 | $1,020.25 | $636.24 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | $101.58 | $20.43 | $406.28 |
-| big-pickle | 1,734 | 5.2M | 412K | 154.4M | $74.03 | $0.00 | $341.98 |
-| nemotron-3-ultra-free | 320 | 3.0M | 31K | 38.2M | $21.22 | $103.15 | $84.18 |
+| big-pickle | 1,733 | 5.2M | 412K | 154.4M | $74.03 | $0.00 | $341.98 |
+| nemotron-3-ultra-free | 285 | 2.6M | 24K | 35.4M | $19.00 | $95.67 | $75.38 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
 | north-mini-code-free | 6 | 498K | 1K | 0 | $1.53 | $0.00 | $6.04 |
-| mimo-v2.5-free | 3 | 45K | 461 | 45K | $0.16 | $0.12 | $0.63 |
+| mimo-v2.5-free | 2 | 45K | 461 | 45K | $0.16 | $0.12 | $0.63 |
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **6,697** | **99.1M** | **1.6M** | **578.8M** | **$509.55** | **$1,145.75** | **$2,049.12** |
+| **Total** | **6,660** | **98.7M** | **1.5M** | **576.0M** | **$507.33** | **$1,138.27** | **$2,040.32** |
 
-_679.6M total tokens processed. 85.2% cache hit rate._
+_676.4M total tokens processed. 85.2% cache hit rate._
 
-_$3,194.87 total saved ($1,145.75 caching + $2,049.12 model routing vs all-Opus)._
+_$3,178.60 total saved ($1,138.27 caching + $2,040.32 model routing vs all-Opus)._
 
 _Model savings are modest because ~85.2% of tokens are cache reads, where price differences between models are small._
 
@@ -125,7 +125,7 @@ _Model savings are modest because ~91.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-11 17:26 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-11 22:30 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
