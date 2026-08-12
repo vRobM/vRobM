@@ -43,7 +43,7 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 3,197 | 10.5M | 680K | 338.0M | $150.73 | $912.85 | $572.99 |
+| deepseek-v4-flash-free | 2,986 | 10.2M | 644K | 314.0M | $141.56 | $848.01 | $538.53 |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | $101.58 | $20.43 | $406.28 |
 | big-pickle | 1,733 | 5.2M | 412K | 154.4M | $74.03 | $0.00 | $341.98 |
@@ -54,13 +54,13 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **6,004** | **95.9M** | **1.4M** | **501.1M** | **$473.68** | **$935.98** | **$1,910.56** |
+| **Total** | **5,793** | **95.6M** | **1.4M** | **477.1M** | **$464.51** | **$871.14** | **$1,876.11** |
 
-_598.6M total tokens processed. 83.7% cache hit rate._
+_574.2M total tokens processed. 83.1% cache hit rate._
 
-_$2,846.54 total saved ($935.98 caching + $1,910.56 model routing vs all-Opus)._
+_$2,747.25 total saved ($871.14 caching + $1,876.11 model routing vs all-Opus)._
 
-_Model savings are modest because ~83.7% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~83.1% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -125,7 +125,7 @@ _Model savings are modest because ~91.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-12 15:47 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-12 16:49 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
