@@ -44,7 +44,7 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | $140.79 | $1.80 | $563.14 |
-| deepseek-v4-flash-free | 2,453 | 9.5M | 551K | 255.7M | $118.76 | $690.64 | $454.16 |
+| deepseek-v4-flash-free | 2,306 | 9.3M | 528K | 241.2M | $113.34 | $651.35 | $433.49 |
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | $101.58 | $20.43 | $406.28 |
 | big-pickle | 1,733 | 5.2M | 412K | 154.4M | $74.03 | $0.00 | $341.98 |
 | lfm2 | 22 | 765K | 1K | 0 | $2.31 | $0.00 | $9.25 |
@@ -54,13 +54,13 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 | agnes-1.5-flash | 4 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | $0.11 | $0.00 | $0.46 |
 | 1.5-flash | 1 | 38K | 7 | 0 | $0.11 | $0.00 | $0.46 |
-| **Total** | **5,260** | **94.9M** | **1.3M** | **418.8M** | **$441.71** | **$713.78** | **$1,791.73** |
+| **Total** | **5,113** | **94.7M** | **1.3M** | **404.2M** | **$436.29** | **$674.49** | **$1,771.07** |
 
-_515.1M total tokens processed. 81.3% cache hit rate._
+_500.4M total tokens processed. 80.8% cache hit rate._
 
-_$2,505.51 total saved ($713.78 caching + $1,791.73 model routing vs all-Opus)._
+_$2,445.55 total saved ($674.49 caching + $1,771.07 model routing vs all-Opus)._
 
-_Model savings are modest because ~81.3% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~80.8% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -125,7 +125,7 @@ _Model savings are modest because ~91.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-12 18:51 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-12 19:52 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
