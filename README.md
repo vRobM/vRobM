@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 13.6h | 94.1h | 153.8h | ~4678h* |
+| Screen time (Mac) | 13.9h | 94.3h | 153.8h | ~4678h* |
 | Interactive human attention | 0.0h | 0.1h | 16.6h | 66.2h |
 | Interactive AI generation | 0.0h | 0.1h | 12.5h | 63.1h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -45,16 +45,16 @@ _AI session 365-day totals cover 148 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | agnes-20-flash | 470 | 31.9M | 178K | 7.5M | $100.78 | $20.43 | $403.08 |
 | big-pickle | 1,771 | 5.4M | 424K | 158.7M | $76.38 | $0.00 | $352.47 |
-| deepseek-v4-flash-free | 862 | 6.0M | 252K | 101.4M | $54.35 | $274.02 | $209.85 |
+| deepseek-v4-flash-free | 809 | 5.9M | 238K | 95.1M | $51.74 | $256.87 | $199.96 |
 | agnes-15-flash | 134 | 11.6M | 23K | 0 | $35.38 | $0.00 | $141.54 |
 | north-mini-code-free | 6 | 498K | 1K | 0 | $1.53 | $0.00 | $6.04 |
-| **Total** | **3,243** | **55.6M** | **881K** | **267.8M** | **$268.42** | **$294.45** | **$1,112.98** |
+| **Total** | **3,190** | **55.5M** | **866K** | **261.4M** | **$265.81** | **$277.30** | **$1,103.09** |
 
-_324.3M total tokens processed. 82.6% cache hit rate._
+_317.9M total tokens processed. 82.2% cache hit rate._
 
-_$1,407.43 total saved ($294.45 caching + $1,112.98 model routing vs all-Opus)._
+_$1,380.39 total saved ($277.30 caching + $1,103.09 model routing vs all-Opus)._
 
-_Model savings are modest because ~82.6% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~82.2% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -116,7 +116,7 @@ _Model savings are modest because ~92% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-16 05:02 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-16 06:03 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
