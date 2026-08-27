@@ -44,16 +44,16 @@ _AI session 365-day totals cover 148 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | deepseek-v4-flash-free | 549 | 889K | 108K | 73.5M | $27.63 | $198.57 | $105.43 |
-| big-pickle | 340 | 1.3M | 79K | 38.4M | $17.87 | $0.00 | $83.78 |
 | agnes-20-flash | 79 | 4.9M | 16K | 3.4M | $16.16 | $9.24 | $64.65 |
+| big-pickle | 281 | 1.1M | 67K | 31.7M | $15.06 | $0.00 | $70.23 |
 | north-mini-code-free | 6 | 498K | 1K | 0 | $1.53 | $0.00 | $6.04 |
-| **Total** | **974** | **7.6M** | **205K** | **115.4M** | **$63.19** | **$207.81** | **$259.90** |
+| **Total** | **915** | **7.5M** | **193K** | **108.6M** | **$60.38** | **$207.81** | **$246.35** |
 
-_123.3M total tokens processed. 93.6% cache hit rate._
+_116.3M total tokens processed. 93.4% cache hit rate._
 
-_$467.71 total saved ($207.81 caching + $259.90 model routing vs all-Opus)._
+_$454.16 total saved ($207.81 caching + $246.35 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.4% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -115,7 +115,7 @@ _Model savings are modest because ~92% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-27 20:12 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-27 21:13 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
