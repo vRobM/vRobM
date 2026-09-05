@@ -132,11 +132,11 @@ _2,574.4M total tokens processed. 92.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-05 01:50 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-05 02:51 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
-  <a href="https://commit-history.com/vRobM">
+  <a href="https://commit-history.com/vRobM?metric=total">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/vRobM?theme=dark" />
     <img alt="vRobM's commit history" src="https://commit-history.com/embed/vRobM" />
