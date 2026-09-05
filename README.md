@@ -41,38 +41,58 @@ _AI session 365-day totals cover 148 days of local assistant session history (no
 
 ## AI Model Usage (last 30 days)
 
-| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
+| Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| big-pickle | 38 | 212K | 11K | 4.2M | $2.35 | $0.00 | $10.49 |
-| **Total** | **38** | **212K** | **11K** | **4.2M** | **$2.35** | **$0.00** | **$10.49** |
+| big-pickle | 38 | 212K | 11K | 4.2M | 95.3% | 1 | 0.1h |
+| **Total** | **38** | **212K** | **11K** | **4.2M** | **95.3%** | **1** | **0.0h** |
 
-_4.5M total tokens processed. 95% cache hit rate._
-
-_$10.49 total saved ($0.00 caching + $10.49 model routing vs all-Opus)._
-
-_Model savings are modest because ~95% of tokens are cache reads, where price differences between models are small._
+_4.5M total tokens processed. 95.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
-| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
+| Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| mimo-v2-pro-free | 3,077 | 27.8M | 1.1M | 561.2M | $269.00 | $1,515.46 | $1,076.07 |
-| deepseek-v4-flash-free | 6,302 | 16.8M | 1.6M | 642.3M | $268.72 | $1,734.31 | $1,074.90 |
-| mimo-v2.5-free | 4,565 | 10.4M | 833K | 455.8M | $180.72 | $1,230.84 | $722.95 |
-| agnes-15-flash | 539 | 45.7M | 208K | 666K | $140.65 | $1.80 | $562.68 |
-| agnes-20-flash | 471 | 31.9M | 178K | 7.5M | $100.75 | $20.43 | $403.08 |
-| nemotron-3-ultra-free | 772 | 11.1M | 137K | 98.0M | $64.85 | $264.78 | $259.43 |
-| qwen3.6-plus-free | 164 | 13.2M | 54K | 0 | $40.56 | $0.00 | $162.28 |
-| mimo-v2-omni-free | 419 | 5.3M | 168K | 50.5M | $33.74 | $136.62 | $135.04 |
-| nemotron-3-super-free | 76 | 9.0M | 9K | 0 | $27.25 | $0.00 | $109.07 |
-| north-mini-code-free | 7 | 498K | 1K | 0 | $1.50 | $0.00 | $6.04 |
-| **Total** | **16,392** | **172.2M** | **4.4M** | **1,816.3M** | **$1,127.74** | **$4,904.24** | **$4,511.54** |
+| deepseek-v4-flash-free | 6,302 | 16.8M | 1.6M | 642.3M | 97.4% | 26 | — |
+| mimo-v2.5-free | 4,565 | 10.4M | 833K | 455.8M | 97.8% | 26 | — |
+| big-pickle | 4,082 | 8.6M | 969K | 368.3M | 97.7% | 35 | — |
+| mimo-v2-pro-free | 3,077 | 27.8M | 1.1M | 561.2M | 95.3% | 76 | — |
+| minimax-m2.5-free | 1,950 | 3.8M | 647K | 184.4M | 98.0% | 32 | — |
+| nemotron-3-ultra-free | 772 | 11.1M | 137K | 98.0M | 89.8% | 8 | 2.8h |
+| agnes-15-flash | 539 | 45.7M | 208K | 666K | 1.4% | 3 | 3.8h |
+| agnes-20-flash | 471 | 31.9M | 178K | 7.5M | 19.2% | 5 | — |
+| mimo-v2-omni-free | 419 | 5.3M | 168K | 50.5M | 90.4% | 2 | 1.6h |
+| qwen3.6-plus-free | 164 | 13.2M | 54K | 0 | 0.0% | 2 | 2.2h |
+| nemotron-3-super-free | 76 | 9.0M | 9K | 0 | 0.0% | 1 | 0.4h |
+| north-mini-code-free | 7 | 498K | 1K | 0 | 0.0% | 7 | — |
+| glm-5.2 | 5 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
+| deepseek-ai/deepseek-v4-flash | 5 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
+| llama-qwen-4b | 4 | 0 | 0 | 0 | 0.0% | 3 | — |
+| step-3.7-flash | 3 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| route-auto | 3 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| deepseek-ai/deepseek-v4-pro | 3 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| claude-sonnet-4-6 | 3 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
+| z-ai/glm-5.2 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| x-ai/grok-4.20-multi-agent | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| minimax/minimax-m3 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| gemini-omni-flash-preview | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| gemini-3-pro-preview | 2 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| deepseek-v4-flash-naraya | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| coding | 2 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| claude-haiku-4-5-free | 2 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| xiaomi/mimo-v2.5 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| x-ai/grok-4.5 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| minimax-m3 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| mimo-v2-5-pro | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| lfm2 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| glm-5.2:free | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| glm-5-2 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| gemini-3.1-pro-preview-customtools | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| deepseek-v4-flash:free | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| claude-opus-4-6 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| cerebras-llama-4-maverick-17b-128e-instruct | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| **Total** | **22,477** | **184.7M** | **6.0M** | **2,369.1M** | **92.8%** | **198** | **—** |
 
-_2,574.4M total tokens processed. 92% cache hit rate._
-
-_$9,415.78 total saved ($4,904.24 caching + $4,511.54 model routing vs all-Opus)._
-
-_Model savings are modest because ~92% of tokens are cache reads, where price differences between models are small._
+_2,574.4M total tokens processed. 92.8% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -112,12 +132,14 @@ _Model savings are modest because ~92% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-04 07:35 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-05 01:50 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
+  <a href="https://commit-history.com/vRobM">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/vRobM?theme=dark" />
     <img alt="vRobM's commit history" src="https://commit-history.com/embed/vRobM" />
   </picture>
+  </a>
 </div>
