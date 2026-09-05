@@ -1,0 +1,845 @@
+{
+  "schema": "aidevops.total-contributions/v1",
+  "user": "vRobM",
+  "updated": "2026-09-05",
+  "through": "2026-09-04",
+  "metric": "GitHub contributionCalendar.totalContributions",
+  "total": 382,
+  "months": [
+    {
+      "month": "2012-11",
+      "total": 1,
+      "cumulative": 1
+    },
+    {
+      "month": "2012-12",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-01",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-02",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-03",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-04",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-05",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-06",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-07",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-08",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-09",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-10",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2013-11",
+      "total": 2,
+      "cumulative": 3
+    },
+    {
+      "month": "2013-12",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-01",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-02",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-03",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-04",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-05",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-06",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-07",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-08",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-09",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-10",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-11",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2014-12",
+      "total": 0,
+      "cumulative": 3
+    },
+    {
+      "month": "2015-01",
+      "total": 1,
+      "cumulative": 4
+    },
+    {
+      "month": "2015-02",
+      "total": 0,
+      "cumulative": 4
+    },
+    {
+      "month": "2015-03",
+      "total": 0,
+      "cumulative": 4
+    },
+    {
+      "month": "2015-04",
+      "total": 0,
+      "cumulative": 4
+    },
+    {
+      "month": "2015-05",
+      "total": 0,
+      "cumulative": 4
+    },
+    {
+      "month": "2015-06",
+      "total": 0,
+      "cumulative": 4
+    },
+    {
+      "month": "2015-07",
+      "total": 1,
+      "cumulative": 5
+    },
+    {
+      "month": "2015-08",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2015-09",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2015-10",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2015-11",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2015-12",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2016-01",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2016-02",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2016-03",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2016-04",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2016-05",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2016-06",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2016-07",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2016-08",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2016-09",
+      "total": 0,
+      "cumulative": 5
+    },
+    {
+      "month": "2016-10",
+      "total": 4,
+      "cumulative": 9
+    },
+    {
+      "month": "2016-11",
+      "total": 0,
+      "cumulative": 9
+    },
+    {
+      "month": "2016-12",
+      "total": 0,
+      "cumulative": 9
+    },
+    {
+      "month": "2017-01",
+      "total": 0,
+      "cumulative": 9
+    },
+    {
+      "month": "2017-02",
+      "total": 1,
+      "cumulative": 10
+    },
+    {
+      "month": "2017-03",
+      "total": 0,
+      "cumulative": 10
+    },
+    {
+      "month": "2017-04",
+      "total": 0,
+      "cumulative": 10
+    },
+    {
+      "month": "2017-05",
+      "total": 0,
+      "cumulative": 10
+    },
+    {
+      "month": "2017-06",
+      "total": 0,
+      "cumulative": 10
+    },
+    {
+      "month": "2017-07",
+      "total": 0,
+      "cumulative": 10
+    },
+    {
+      "month": "2017-08",
+      "total": 0,
+      "cumulative": 10
+    },
+    {
+      "month": "2017-09",
+      "total": 0,
+      "cumulative": 10
+    },
+    {
+      "month": "2017-10",
+      "total": 0,
+      "cumulative": 10
+    },
+    {
+      "month": "2017-11",
+      "total": 1,
+      "cumulative": 11
+    },
+    {
+      "month": "2017-12",
+      "total": 0,
+      "cumulative": 11
+    },
+    {
+      "month": "2018-01",
+      "total": 4,
+      "cumulative": 15
+    },
+    {
+      "month": "2018-02",
+      "total": 25,
+      "cumulative": 40
+    },
+    {
+      "month": "2018-03",
+      "total": 2,
+      "cumulative": 42
+    },
+    {
+      "month": "2018-04",
+      "total": 4,
+      "cumulative": 46
+    },
+    {
+      "month": "2018-05",
+      "total": 6,
+      "cumulative": 52
+    },
+    {
+      "month": "2018-06",
+      "total": 51,
+      "cumulative": 103
+    },
+    {
+      "month": "2018-07",
+      "total": 8,
+      "cumulative": 111
+    },
+    {
+      "month": "2018-08",
+      "total": 31,
+      "cumulative": 142
+    },
+    {
+      "month": "2018-09",
+      "total": 6,
+      "cumulative": 148
+    },
+    {
+      "month": "2018-10",
+      "total": 2,
+      "cumulative": 150
+    },
+    {
+      "month": "2018-11",
+      "total": 11,
+      "cumulative": 161
+    },
+    {
+      "month": "2018-12",
+      "total": 1,
+      "cumulative": 162
+    },
+    {
+      "month": "2019-01",
+      "total": 4,
+      "cumulative": 166
+    },
+    {
+      "month": "2019-02",
+      "total": 4,
+      "cumulative": 170
+    },
+    {
+      "month": "2019-03",
+      "total": 0,
+      "cumulative": 170
+    },
+    {
+      "month": "2019-04",
+      "total": 1,
+      "cumulative": 171
+    },
+    {
+      "month": "2019-05",
+      "total": 1,
+      "cumulative": 172
+    },
+    {
+      "month": "2019-06",
+      "total": 2,
+      "cumulative": 174
+    },
+    {
+      "month": "2019-07",
+      "total": 0,
+      "cumulative": 174
+    },
+    {
+      "month": "2019-08",
+      "total": 2,
+      "cumulative": 176
+    },
+    {
+      "month": "2019-09",
+      "total": 24,
+      "cumulative": 200
+    },
+    {
+      "month": "2019-10",
+      "total": 0,
+      "cumulative": 200
+    },
+    {
+      "month": "2019-11",
+      "total": 3,
+      "cumulative": 203
+    },
+    {
+      "month": "2019-12",
+      "total": 9,
+      "cumulative": 212
+    },
+    {
+      "month": "2020-01",
+      "total": 1,
+      "cumulative": 213
+    },
+    {
+      "month": "2020-02",
+      "total": 2,
+      "cumulative": 215
+    },
+    {
+      "month": "2020-03",
+      "total": 3,
+      "cumulative": 218
+    },
+    {
+      "month": "2020-04",
+      "total": 0,
+      "cumulative": 218
+    },
+    {
+      "month": "2020-05",
+      "total": 0,
+      "cumulative": 218
+    },
+    {
+      "month": "2020-06",
+      "total": 1,
+      "cumulative": 219
+    },
+    {
+      "month": "2020-07",
+      "total": 3,
+      "cumulative": 222
+    },
+    {
+      "month": "2020-08",
+      "total": 1,
+      "cumulative": 223
+    },
+    {
+      "month": "2020-09",
+      "total": 0,
+      "cumulative": 223
+    },
+    {
+      "month": "2020-10",
+      "total": 0,
+      "cumulative": 223
+    },
+    {
+      "month": "2020-11",
+      "total": 8,
+      "cumulative": 231
+    },
+    {
+      "month": "2020-12",
+      "total": 4,
+      "cumulative": 235
+    },
+    {
+      "month": "2021-01",
+      "total": 1,
+      "cumulative": 236
+    },
+    {
+      "month": "2021-02",
+      "total": 7,
+      "cumulative": 243
+    },
+    {
+      "month": "2021-03",
+      "total": 8,
+      "cumulative": 251
+    },
+    {
+      "month": "2021-04",
+      "total": 1,
+      "cumulative": 252
+    },
+    {
+      "month": "2021-05",
+      "total": 0,
+      "cumulative": 252
+    },
+    {
+      "month": "2021-06",
+      "total": 0,
+      "cumulative": 252
+    },
+    {
+      "month": "2021-07",
+      "total": 0,
+      "cumulative": 252
+    },
+    {
+      "month": "2021-08",
+      "total": 3,
+      "cumulative": 255
+    },
+    {
+      "month": "2021-09",
+      "total": 0,
+      "cumulative": 255
+    },
+    {
+      "month": "2021-10",
+      "total": 0,
+      "cumulative": 255
+    },
+    {
+      "month": "2021-11",
+      "total": 0,
+      "cumulative": 255
+    },
+    {
+      "month": "2021-12",
+      "total": 0,
+      "cumulative": 255
+    },
+    {
+      "month": "2022-01",
+      "total": 0,
+      "cumulative": 255
+    },
+    {
+      "month": "2022-02",
+      "total": 0,
+      "cumulative": 255
+    },
+    {
+      "month": "2022-03",
+      "total": 0,
+      "cumulative": 255
+    },
+    {
+      "month": "2022-04",
+      "total": 2,
+      "cumulative": 257
+    },
+    {
+      "month": "2022-05",
+      "total": 0,
+      "cumulative": 257
+    },
+    {
+      "month": "2022-06",
+      "total": 0,
+      "cumulative": 257
+    },
+    {
+      "month": "2022-07",
+      "total": 0,
+      "cumulative": 257
+    },
+    {
+      "month": "2022-08",
+      "total": 3,
+      "cumulative": 260
+    },
+    {
+      "month": "2022-09",
+      "total": 0,
+      "cumulative": 260
+    },
+    {
+      "month": "2022-10",
+      "total": 0,
+      "cumulative": 260
+    },
+    {
+      "month": "2022-11",
+      "total": 0,
+      "cumulative": 260
+    },
+    {
+      "month": "2022-12",
+      "total": 0,
+      "cumulative": 260
+    },
+    {
+      "month": "2023-01",
+      "total": 8,
+      "cumulative": 268
+    },
+    {
+      "month": "2023-02",
+      "total": 0,
+      "cumulative": 268
+    },
+    {
+      "month": "2023-03",
+      "total": 3,
+      "cumulative": 271
+    },
+    {
+      "month": "2023-04",
+      "total": 2,
+      "cumulative": 273
+    },
+    {
+      "month": "2023-05",
+      "total": 0,
+      "cumulative": 273
+    },
+    {
+      "month": "2023-06",
+      "total": 3,
+      "cumulative": 276
+    },
+    {
+      "month": "2023-07",
+      "total": 0,
+      "cumulative": 276
+    },
+    {
+      "month": "2023-08",
+      "total": 0,
+      "cumulative": 276
+    },
+    {
+      "month": "2023-09",
+      "total": 8,
+      "cumulative": 284
+    },
+    {
+      "month": "2023-10",
+      "total": 2,
+      "cumulative": 286
+    },
+    {
+      "month": "2023-11",
+      "total": 2,
+      "cumulative": 288
+    },
+    {
+      "month": "2023-12",
+      "total": 0,
+      "cumulative": 288
+    },
+    {
+      "month": "2024-01",
+      "total": 2,
+      "cumulative": 290
+    },
+    {
+      "month": "2024-02",
+      "total": 2,
+      "cumulative": 292
+    },
+    {
+      "month": "2024-03",
+      "total": 0,
+      "cumulative": 292
+    },
+    {
+      "month": "2024-04",
+      "total": 0,
+      "cumulative": 292
+    },
+    {
+      "month": "2024-05",
+      "total": 0,
+      "cumulative": 292
+    },
+    {
+      "month": "2024-06",
+      "total": 0,
+      "cumulative": 292
+    },
+    {
+      "month": "2024-07",
+      "total": 0,
+      "cumulative": 292
+    },
+    {
+      "month": "2024-08",
+      "total": 0,
+      "cumulative": 292
+    },
+    {
+      "month": "2024-09",
+      "total": 0,
+      "cumulative": 292
+    },
+    {
+      "month": "2024-10",
+      "total": 0,
+      "cumulative": 292
+    },
+    {
+      "month": "2024-11",
+      "total": 0,
+      "cumulative": 292
+    },
+    {
+      "month": "2024-12",
+      "total": 4,
+      "cumulative": 296
+    },
+    {
+      "month": "2025-01",
+      "total": 0,
+      "cumulative": 296
+    },
+    {
+      "month": "2025-02",
+      "total": 0,
+      "cumulative": 296
+    },
+    {
+      "month": "2025-03",
+      "total": 1,
+      "cumulative": 297
+    },
+    {
+      "month": "2025-04",
+      "total": 2,
+      "cumulative": 299
+    },
+    {
+      "month": "2025-05",
+      "total": 1,
+      "cumulative": 300
+    },
+    {
+      "month": "2025-06",
+      "total": 0,
+      "cumulative": 300
+    },
+    {
+      "month": "2025-07",
+      "total": 0,
+      "cumulative": 300
+    },
+    {
+      "month": "2025-08",
+      "total": 0,
+      "cumulative": 300
+    },
+    {
+      "month": "2025-09",
+      "total": 0,
+      "cumulative": 300
+    },
+    {
+      "month": "2025-10",
+      "total": 0,
+      "cumulative": 300
+    },
+    {
+      "month": "2025-11",
+      "total": 0,
+      "cumulative": 300
+    },
+    {
+      "month": "2025-12",
+      "total": 0,
+      "cumulative": 300
+    },
+    {
+      "month": "2026-01",
+      "total": 0,
+      "cumulative": 300
+    },
+    {
+      "month": "2026-02",
+      "total": 0,
+      "cumulative": 300
+    },
+    {
+      "month": "2026-03",
+      "total": 31,
+      "cumulative": 331
+    },
+    {
+      "month": "2026-04",
+      "total": 20,
+      "cumulative": 351
+    },
+    {
+      "month": "2026-05",
+      "total": 0,
+      "cumulative": 351
+    },
+    {
+      "month": "2026-06",
+      "total": 11,
+      "cumulative": 362
+    },
+    {
+      "month": "2026-07",
+      "total": 20,
+      "cumulative": 382
+    },
+    {
+      "month": "2026-08",
+      "total": 0,
+      "cumulative": 382
+    },
+    {
+      "month": "2026-09",
+      "total": 0,
+      "cumulative": 382
+    }
+  ]
+}
