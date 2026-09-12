@@ -43,10 +43,10 @@ _AI session 365-day totals cover 148 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| big-pickle | 38 | 212K | 11K | 4.2M | 95.3% | 1 | 0.1h |
-| **Total** | **38** | **212K** | **11K** | **4.2M** | **95.3%** | **1** | **0.0h** |
+| big-pickle | 33 | 110K | 11K | 3.8M | 97.2% | 1 | 0.1h |
+| **Total** | **33** | **110K** | **11K** | **3.8M** | **97.2%** | **1** | **0.0h** |
 
-_4.5M total tokens processed. 95.3% cache hit rate._
+_3.9M total tokens processed. 97.2% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -132,7 +132,7 @@ _2,574.4M total tokens processed. 92.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-12 07:46 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-12 22:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
