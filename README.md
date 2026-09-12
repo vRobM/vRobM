@@ -39,15 +39,6 @@ _Human attention is unioned wall-clock time, so overlapping sessions are not dou
 
 _AI session 365-day totals cover 148 days of local assistant session history (not extrapolated)._
 
-## AI Model Usage (last 30 days)
-
-| Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| big-pickle | 33 | 110K | 11K | 3.8M | 97.2% | 1 | 0.1h |
-| **Total** | **33** | **110K** | **11K** | **3.8M** | **97.2%** | **1** | **0.0h** |
-
-_3.9M total tokens processed. 97.2% cache hit rate._
-
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
@@ -132,7 +123,7 @@ _2,574.4M total tokens processed. 92.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-12 22:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-12 23:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
