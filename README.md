@@ -28,7 +28,7 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.0h | 0.0h | 28.2h |
 | Additive observed work | 0.0h | 0.0h | 0.1h | 157.6h |
-| Interactive sessions | 0 | 0 | 1 | 69 |
+| Interactive sessions | 2 | 2 | 3 | 71 |
 | Worker sessions | 0 | 0 | 0 | 57 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
@@ -37,66 +37,66 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 185 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 204 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
-| Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| big-pickle | 15 | 137K | 4K | 1.5M | 91.9% | 1 | 0.0h |
-| llama-qwen-4b | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| mimo-v2.5-free | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| x-preview-f-free | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **18** | **137K** | **4K** | **1.5M** | **91.9%** | **1** | **0.0h** |
+| Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| big-pickle | 176 | 1.3M | 95K | 18.7M | 0 | 93.1% | 3 | 0.8h |
+| llama-qwen-4b | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| mimo-v2.5-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| x-preview-f-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| **Total** | **179** | **1.3M** | **95K** | **18.7M** | **0** | **93.1%** | **3** | **0.8h** |
 
-_1.7M total tokens processed. 91.9% cache hit rate._
+_20.2M total tokens processed. 93.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
-| Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| deepseek-v4-flash-free | 6,302 | 16.8M | 1.6M | 642.3M | 97.4% | 26 | — |
-| mimo-v2.5-free | 4,566 | 10.4M | 833K | 455.8M | 97.8% | 27 | — |
-| big-pickle | 4,097 | 8.8M | 973K | 369.8M | 97.7% | 36 | — |
-| mimo-v2-pro-free | 3,077 | 27.8M | 1.1M | 561.2M | 95.3% | 76 | — |
-| minimax-m2.5-free | 1,950 | 3.8M | 647K | 184.4M | 98.0% | 32 | — |
-| nemotron-3-ultra-free | 772 | 11.1M | 137K | 98.0M | 89.8% | 8 | 2.8h |
-| agnes-15-flash | 539 | 45.7M | 208K | 666K | 1.4% | 3 | 3.8h |
-| agnes-20-flash | 471 | 31.9M | 178K | 7.5M | 19.2% | 5 | — |
-| mimo-v2-omni-free | 419 | 5.3M | 168K | 50.5M | 90.4% | 2 | 1.6h |
-| qwen3.6-plus-free | 164 | 13.2M | 54K | 0 | 0.0% | 2 | 2.2h |
-| nemotron-3-super-free | 76 | 9.0M | 9K | 0 | 0.0% | 1 | 0.4h |
-| north-mini-code-free | 7 | 498K | 1K | 0 | 0.0% | 7 | — |
-| llama-qwen-4b | 5 | 0 | 0 | 0 | 0.0% | 4 | — |
-| glm-5.2 | 5 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
-| deepseek-ai/deepseek-v4-flash | 5 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
-| step-3.7-flash | 3 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| route-auto | 3 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| deepseek-ai/deepseek-v4-pro | 3 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| claude-sonnet-4-6 | 3 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
-| z-ai/glm-5.2 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| x-ai/grok-4.20-multi-agent | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| minimax/minimax-m3 | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| gemini-omni-flash-preview | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| gemini-3-pro-preview | 2 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| deepseek-v4-flash-naraya | 2 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
-| coding | 2 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| claude-haiku-4-5-free | 2 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| xiaomi/mimo-v2.5 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| x-preview-f-free | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| x-ai/grok-4.5 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| minimax-m3 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| mimo-v2-5-pro | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| lfm2 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| glm-5.2:free | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| glm-5-2 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| gemini-3.1-pro-preview-customtools | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| deepseek-v4-flash:free | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| claude-opus-4-6 | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| cerebras-llama-4-maverick-17b-128e-instruct | 1 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **22,495** | **184.8M** | **6.0M** | **2,370.7M** | **92.8%** | **199** | **—** |
+| Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| deepseek-v4-flash-free | 6,302 | 16.8M | 1.6M | 642.3M | 0 | 97.4% | 26 | — |
+| mimo-v2.5-free | 4,566 | 10.4M | 833K | 455.8M | 0 | 97.8% | 27 | — |
+| big-pickle | 4,259 | 10.0M | 1.0M | 387.0M | 5.1M | 96.2% | 38 | — |
+| mimo-v2-pro-free | 3,077 | 27.8M | 1.1M | 561.2M | 0 | 95.3% | 76 | — |
+| minimax-m2.5-free | 1,950 | 3.8M | 647K | 184.4M | 9.3M | 93.3% | 32 | — |
+| nemotron-3-ultra-free | 772 | 11.1M | 137K | 98.0M | 0 | 89.8% | 8 | 2.8h |
+| agnes-15-flash | 539 | 45.7M | 208K | 666K | 0 | 1.4% | 3 | 3.8h |
+| agnes-20-flash | 471 | 31.9M | 178K | 7.5M | 0 | 19.2% | 5 | — |
+| mimo-v2-omni-free | 419 | 5.3M | 168K | 50.5M | 0 | 90.4% | 2 | 1.6h |
+| qwen3.6-plus-free | 164 | 13.2M | 54K | 0 | 0 | 0.0% | 2 | 2.2h |
+| nemotron-3-super-free | 76 | 9.0M | 9K | 0 | 0 | 0.0% | 1 | 0.4h |
+| north-mini-code-free | 7 | 498K | 1K | 0 | 0 | 0.0% | 7 | — |
+| deepseek-ai/deepseek-v4-flash | 5 | 0 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
+| glm-5.2 | 5 | 0 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
+| llama-qwen-4b | 5 | 0 | 0 | 0 | 0 | 0.0% | 4 | — |
+| claude-sonnet-4-6 | 3 | 0 | 0 | 0 | 0 | 0.0% | 3 | 0.0h |
+| deepseek-ai/deepseek-v4-pro | 3 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| route-auto | 3 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| step-3.7-flash | 3 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| claude-haiku-4-5-free | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| coding | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| deepseek-v4-flash-naraya | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| gemini-3-pro-preview | 2 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| gemini-omni-flash-preview | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| minimax/minimax-m3 | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| x-ai/grok-4.20-multi-agent | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| z-ai/glm-5.2 | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
+| cerebras-llama-4-maverick-17b-128e-instruct | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| claude-opus-4-6 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| deepseek-v4-flash:free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| gemini-3.1-pro-preview-customtools | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| glm-5-2 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| glm-5.2:free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| lfm2 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| mimo-v2-5-pro | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| minimax-m3 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| x-ai/grok-4.5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| x-preview-f-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| xiaomi/mimo-v2.5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| **Total** | **22,657** | **186.1M** | **6.1M** | **2,387.9M** | **14.4M** | **92.3%** | **201** | **—** |
 
-_2,576.1M total tokens processed. 92.8% cache hit rate._
+_2,594.6M total tokens processed. 92.3% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -136,7 +136,7 @@ _2,576.1M total tokens processed. 92.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-09 00:09 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-09 02:08 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
