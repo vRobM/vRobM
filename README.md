@@ -29,7 +29,7 @@
 | Worker/headless AI generation | 0.0h | 0.0h | 0.0h | 28.2h |
 | Additive observed work | 3.6h | 3.6h | 3.7h | 161.2h |
 | Interactive sessions | 87 | 87 | 88 | 156 |
-| Worker sessions | 1 | 1 | 1 | 58 |
+| Worker sessions | 2 | 2 | 2 | 59 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -45,16 +45,16 @@ _AI session 365-day totals cover 205 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | big-pickle | 319 | 2.3M | 189K | 34.4M | 0 | 93.6% | 6 | 1.5h |
 | agnes-2.5-flash | 115 | 1.0M | 21K | 29.2M | 0 | 96.5% | 1 | 1.0h |
-| longcat-2.5-preview-free | 49 | 136K | 28K | 3.9M | 0 | 96.7% | 1 | 0.4h |
+| longcat-2.5-preview-free | 62 | 174K | 39K | 5.9M | 0 | 97.2% | 1 | 0.6h |
+| space-bunny-free | 9 | 19K | 762 | 132K | 0 | 87.1% | 2 | 0.0h |
 | ling-3.1-flash-free | 3 | 137K | 4K | 0 | 0 | 0.0% | 2 | 0.1h |
 | exo-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | llama-qwen-4b | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | mimo-v2.5-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| space-bunny-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | x-preview-f-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **491** | **3.7M** | **243K** | **67.6M** | **0** | **94.8%** | **8** | **3.1h** |
+| **Total** | **512** | **3.7M** | **255K** | **69.8M** | **0** | **94.9%** | **9** | **3.2h** |
 
-_71.6M total tokens processed. 94.8% cache hit rate._
+_73.8M total tokens processed. 94.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -69,8 +69,9 @@ _71.6M total tokens processed. 94.8% cache hit rate._
 | agnes-20-flash | 476 | 32.2M | 179K | 7.5M | 0 | 19.0% | 6 | 1.9h |
 | qwen3.6-plus-free | 163 | 13.2M | 54K | 0 | 0 | 0.0% | 2 | 2.2h |
 | agnes-2.5-flash | 116 | 1.0M | 21K | 29.2M | 0 | 96.5% | 2 | 1.0h |
-| longcat-2.5-preview-free | 49 | 136K | 28K | 3.9M | 0 | 96.7% | 1 | 0.4h |
+| longcat-2.5-preview-free | 62 | 174K | 39K | 5.9M | 0 | 97.2% | 1 | 0.6h |
 | lfm2 | 22 | 765K | 1K | 0 | 0 | 0.0% | 2 | 0.1h |
+| space-bunny-free | 9 | 19K | 762 | 132K | 0 | 87.1% | 2 | 0.0h |
 | deepseek-v4-flash:free | 7 | 0 | 0 | 0 | 0 | 0.0% | 7 | 0.0h |
 | agnes-2.0-flash | 6 | 38K | 8 | 0 | 0 | 0.0% | 4 | 0.0h |
 | north-mini-code-free | 6 | 498K | 1K | 0 | 0 | 0.0% | 6 | 0.0h |
@@ -98,13 +99,12 @@ _71.6M total tokens processed. 94.8% cache hit rate._
 | glm-5.2:free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | mimo-v2-5-pro | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | minimax-m3 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| space-bunny-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | x-ai/grok-4.5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | x-preview-f-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | xiaomi/mimo-v2.5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **17,650** | **146.3M** | **4.3M** | **1,666.9M** | **2.0M** | **91.8%** | **107** | **84.7h** |
+| **Total** | **17,671** | **146.4M** | **4.3M** | **1,669.1M** | **2.0M** | **91.8%** | **108** | **84.9h** |
 
-_1,819.7M total tokens processed. 91.8% cache hit rate._
+_1,821.9M total tokens processed. 91.8% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -144,7 +144,7 @@ _1,819.7M total tokens processed. 91.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-09 14:58 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-09 15:59 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
