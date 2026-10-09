@@ -44,13 +44,13 @@ _AI session 365-day totals cover 204 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | big-pickle | 319 | 2.3M | 189K | 34.4M | 0 | 93.6% | 6 | 1.5h |
-| agnes-2.5-flash | 31 | 443K | 4K | 5.2M | 0 | 92.2% | 1 | 0.2h |
+| agnes-2.5-flash | 80 | 674K | 15K | 18.2M | 0 | 96.4% | 1 | 0.6h |
 | llama-qwen-4b | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | mimo-v2.5-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | x-preview-f-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **353** | **2.8M** | **193K** | **39.7M** | **0** | **93.4%** | **6** | **1.7h** |
+| **Total** | **402** | **3.0M** | **204K** | **52.7M** | **0** | **94.5%** | **6** | **2.1h** |
 
-_42.7M total tokens processed. 93.4% cache hit rate._
+_55.9M total tokens processed. 94.5% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -66,8 +66,8 @@ _42.7M total tokens processed. 93.4% cache hit rate._
 | agnes-20-flash | 471 | 31.9M | 178K | 7.5M | 0 | 19.2% | 5 | — |
 | mimo-v2-omni-free | 419 | 5.3M | 168K | 50.5M | 0 | 90.4% | 2 | 1.6h |
 | qwen3.6-plus-free | 164 | 13.2M | 54K | 0 | 0 | 0.0% | 2 | 2.2h |
+| agnes-2.5-flash | 80 | 674K | 15K | 18.2M | 0 | 96.4% | 1 | 0.6h |
 | nemotron-3-super-free | 76 | 9.0M | 9K | 0 | 0 | 0.0% | 1 | 0.4h |
-| agnes-2.5-flash | 31 | 443K | 4K | 5.2M | 0 | 92.2% | 1 | 0.2h |
 | north-mini-code-free | 7 | 498K | 1K | 0 | 0 | 0.0% | 7 | — |
 | deepseek-ai/deepseek-v4-flash | 5 | 0 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
 | glm-5.2 | 5 | 0 | 0 | 0 | 0 | 0.0% | 4 | 0.0h |
@@ -96,9 +96,9 @@ _42.7M total tokens processed. 93.4% cache hit rate._
 | x-ai/grok-4.5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | x-preview-f-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | xiaomi/mimo-v2.5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **22,901** | **187.7M** | **6.2M** | **2,410.3M** | **14.4M** | **92.3%** | **275** | **—** |
+| **Total** | **22,950** | **187.9M** | **6.2M** | **2,423.3M** | **14.4M** | **92.3%** | **275** | **—** |
 
-_2,618.7M total tokens processed. 92.3% cache hit rate._
+_2,632.0M total tokens processed. 92.3% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -138,7 +138,7 @@ _2,618.7M total tokens processed. 92.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-09 03:47 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-09 04:48 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
