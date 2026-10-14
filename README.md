@@ -22,7 +22,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 14.5h | 99.3h | 363.9h | ~4720h* |
+| Screen time (Mac) | 15.3h | 100.4h | 350.3h | ~4720h* |
 | Interactive human attention | 0.0h | 1.5h | 1.6h | 67.8h |
 | Interactive AI generation | 0.0h | 2.7h | 2.7h | 65.8h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -144,7 +144,7 @@ _1,826.1M total tokens processed. 91.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-14 00:45 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-14 05:51 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
