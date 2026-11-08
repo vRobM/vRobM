@@ -43,14 +43,11 @@ _AI session 365-day totals cover 205 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| longcat-2.5-preview-free | 82 | 394K | 44K | 9.9M | 0 | 96.2% | 1 | 0.7h |
-| agnes-2.5-flash | 35 | 386K | 5K | 10.9M | 0 | 96.6% | 1 | 0.4h |
-| space-bunny-free | 9 | 19K | 762 | 132K | 0 | 87.1% | 2 | 0.0h |
-| ling-3.1-flash-free | 3 | 137K | 4K | 0 | 0 | 0.0% | 2 | 0.1h |
-| exo-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **130** | **938K** | **55K** | **21.0M** | **0** | **95.7%** | **4** | **1.2h** |
+| longcat-2.5-preview-free | 65 | 336K | 29K | 9.2M | 0 | 96.5% | 1 | 0.5h |
+| space-bunny-free | 8 | 19K | 762 | 132K | 0 | 87.1% | 1 | 0.0h |
+| **Total** | **73** | **356K** | **30K** | **9.3M** | **0** | **96.3%** | **2** | **0.5h** |
 
-_22.0M total tokens processed. 95.7% cache hit rate._
+_9.7M total tokens processed. 96.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -153,7 +150,7 @@ _1,826.1M total tokens processed. 91.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-08 09:30 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-08 13:53 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
