@@ -24,13 +24,13 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | unavailable | unavailable | unavailable | unavailable |
 | Input activity (Mac) | unavailable | unavailable | unavailable | unavailable |
-| Interactive human attention | 0.2h | 0.2h | 0.2h | 67.9h |
-| Interactive AI generation | 0.1h | 0.1h | 0.1h | 65.9h |
+| Interactive human attention | 0.0h | 0.2h | 0.2h | 67.9h |
+| Interactive AI generation | 0.0h | 0.1h | 0.1h | 65.9h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.0h | 0.0h | 28.9h |
-| Additive observed work | 0.4h | 0.4h | 0.4h | 162.8h |
-| Interactive sessions | 1 | 1 | 1 | 157 |
-| Worker sessions | 1 | 1 | 1 | 60 |
+| Additive observed work | 0.0h | 0.4h | 0.4h | 162.8h |
+| Interactive sessions | 0 | 1 | 1 | 157 |
+| Worker sessions | 0 | 1 | 1 | 60 |
 
 _Screen time from unavailable; collection status: unavailable._
 
@@ -156,7 +156,7 @@ _1,830.2M total tokens processed. 91.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-22 00:54 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-22 06:15 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
