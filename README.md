@@ -29,7 +29,7 @@
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
 | Worker/headless AI generation | 0.0h | 0.0h | 0.0h | 28.9h |
 | Additive observed work | 0.0h | 0.4h | 0.4h | 162.8h |
-| Interactive sessions | 5 | 6 | 6 | 162 |
+| Interactive sessions | 8 | 9 | 9 | 165 |
 | Worker sessions | 0 | 1 | 1 | 60 |
 
 _Screen time from unavailable; collection status: unavailable._
@@ -46,12 +46,13 @@ _AI session 365-day totals cover 253 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| big-pickle | 63 | 1.4M | 39K | 3.4M | 0 | 70.8% | 3 | 0.2h |
+| big-pickle | 74 | 2.2M | 50K | 3.4M | 0 | 59.8% | 4 | 0.3h |
 | tidepool-alpha-free | 23 | 354K | 2K | 3.0M | 0 | 89.6% | 2 | 0.1h |
+| beam-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | mimo-v2.6-flash-free | 1 | 44K | 110 | 512 | 0 | 1.1% | 1 | 0.0h |
-| **Total** | **87** | **1.8M** | **41K** | **6.4M** | **0** | **78.2%** | **4** | **0.4h** |
+| **Total** | **99** | **2.6M** | **52K** | **6.4M** | **0** | **70.6%** | **6** | **0.5h** |
 
-_8.2M total tokens processed. 78.2% cache hit rate._
+_9.1M total tokens processed. 70.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -59,7 +60,7 @@ _8.2M total tokens processed. 78.2% cache hit rate._
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | deepseek-v4-flash-free | 6,344 | 16.9M | 1.7M | 644.3M | 0 | 97.4% | 27 | 18.6h |
 | mimo-v2.5-free | 4,567 | 10.5M | 834K | 455.9M | 0 | 97.7% | 27 | 27.7h |
-| big-pickle | 3,927 | 12.0M | 1.0M | 365.5M | 1.6M | 96.4% | 33 | 22.8h |
+| big-pickle | 3,938 | 12.9M | 1.0M | 365.5M | 1.6M | 96.1% | 34 | 22.9h |
 | nemotron-3-ultra-free | 783 | 11.4M | 138K | 98.0M | 0 | 89.5% | 9 | 2.9h |
 | minimax-m2.5-free | 648 | 2.7M | 159K | 65.0M | 329K | 95.5% | 3 | 3.3h |
 | agnes-15-flash | 542 | 45.8M | 208K | 666K | 0 | 1.4% | 4 | 3.8h |
@@ -90,6 +91,7 @@ _8.2M total tokens processed. 78.2% cache hit rate._
 | z-ai/glm-5.2 | 2 | 0 | 0 | 0 | 0 | 0.0% | 2 | 0.0h |
 | 1.5-flash | 1 | 38K | 7 | 0 | 0 | 0.0% | 1 | 0.0h |
 | 2.0-flash | 1 | 13K | 7 | 0 | 0 | 0.0% | 1 | 0.0h |
+| beam-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | cerebras-llama-4-maverick-17b-128e-instruct | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | exo-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | gemini-3.1-pro-preview-customtools | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
@@ -101,9 +103,9 @@ _8.2M total tokens processed. 78.2% cache hit rate._
 | x-ai/grok-4.5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | x-preview-f-free | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
 | xiaomi/mimo-v2.5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **17,778** | **148.4M** | **4.3M** | **1,679.5M** | **2.0M** | **91.8%** | **112** | **85.4h** |
+| **Total** | **17,790** | **149.3M** | **4.3M** | **1,679.5M** | **2.0M** | **91.7%** | **114** | **85.4h** |
 
-_1,834.4M total tokens processed. 91.8% cache hit rate._
+_1,835.3M total tokens processed. 91.7% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -156,7 +158,7 @@ _1,834.4M total tokens processed. 91.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-27 00:13 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-27 01:17 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
